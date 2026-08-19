@@ -1,0 +1,3 @@
+role	instance	master	x	y	width	height	orient	pStatus	baseClass	subClass
+mover	_13944_	NAND2_X1	28.69	61.88	0.57	1.4	R0	placed	core	core
+target	_13932_	NAND2_X1	29.26	61.88	0.57	1.4	R0	placed	core	core

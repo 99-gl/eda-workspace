@@ -1,0 +1,6 @@
+{
+  "root_cause": "transition",
+  "contributing_factor": "capacitance",
+  "primary_objects": ["_16419_", "_16425_", "_16427_"],
+  "evidence": "三颗连续 X1 门位于唯一 setup 违例路径；其输出负载超过 X1 max-cap，其中 _16419_ 与 _16425_ 同时产生 max-transition 违例。恢复对应 X4 后 setup、transition 和 capacitance 违例全部清零。"
+}

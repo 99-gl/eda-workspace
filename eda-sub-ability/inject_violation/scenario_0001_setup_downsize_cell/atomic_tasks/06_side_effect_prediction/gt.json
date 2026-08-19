@@ -1,0 +1,16 @@
+{
+  "setup_timing": "improve",
+  "hold_timing": "unchanged",
+  "drv": "improve",
+  "area": "increase",
+  "power": "decrease",
+  "congestion": "unchanged",
+  "setup_wns_before_ns": -0.045,
+  "setup_wns_after_ns": 0.275,
+  "hold_wns_before_ns": 0.026,
+  "hold_wns_after_ns": 0.026,
+  "area_before_um2": 15366.55,
+  "area_after_um2": 15373.20,
+  "power_before_mw": 19.38651828,
+  "power_after_mw": 19.35645071
+}

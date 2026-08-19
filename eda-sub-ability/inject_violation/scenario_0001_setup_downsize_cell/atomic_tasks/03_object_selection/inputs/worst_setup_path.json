@@ -1,0 +1,7 @@
+{
+  "check_type": "setup",
+  "beginpoint": "_19477_/Q",
+  "endpoint": "_19318_/D",
+  "slack_ns": -0.045,
+  "path_group": "aes_clk"
+}

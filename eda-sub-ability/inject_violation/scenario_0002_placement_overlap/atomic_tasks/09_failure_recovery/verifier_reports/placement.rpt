@@ -1,0 +1,7 @@
+Estimated cell power/ground rail width = 0.197 um
+Begin checking placement ... (start mem=1014.2M, init mem=1014.6M)
+*info: Placed = 12781          (Fixed = 1029)
+*info: Unplaced = 0           
+Placement Density:61.56%(15055/24458)
+Placement Density (including fixed std cells):61.98%(15325/24727)
+Finished checkPlace (total: cpu=0:00:00.1, real=0:00:00.0; vio checks: cpu=0:00:00.1, real=0:00:00.0; mem=1014.2M)

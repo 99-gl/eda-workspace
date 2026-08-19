@@ -1,0 +1,7 @@
+{
+  "max_transition_terms": 13,
+  "max_capacitance_terms": 3,
+  "real_max_fanout_violations": 0,
+  "max_capacitance_outputs": ["_16419_/ZN", "_16425_/ZN", "_16427_/ZN"],
+  "transition_driver_outputs": ["_16419_/ZN", "_16425_/ZN"]
+}

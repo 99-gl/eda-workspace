@@ -1,0 +1,3 @@
+metric	injected_status	repaired_status	injected_error	repaired_error
+power	0	0	1	1
+congestion	0	0		

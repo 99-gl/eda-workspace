@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scenario_id": "scenario_0002_placement_overlap",
+  "design": "aes_cipher_top",
+  "tool": {"name": "Cadence Innovus", "version": "19.10-p002_1"},
+  "baseline": "../../baseline/aes_route.enc",
+  "injected_checkpoint": "outputs/placement_overlap.enc",
+  "golden_repaired_checkpoint": "outputs/golden_repaired.enc",
+  "primary_violation": "placement_overlap",
+  "injection": {
+    "type": "move_standard_cell_to_occupied_origin",
+    "mover": {"instance": "_14522_", "master": "NOR2_X1", "original_location": [32.68, 119.28], "injected_location": [33.25, 119.28], "size_um": [0.57, 1.4], "orient": "R180", "status": "placed", "fixed": false},
+    "target": {"instance": "_14662_", "master": "NOR2_X1", "location": [33.25, 119.28], "size_um": [0.57, 1.4], "orient": "MX", "status": "placed", "fixed": false}
+  },
+  "metrics": {
+    "prepared": {"overlap_objects": 0, "unplaced": 0, "setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "drv_violations": 0, "connectivity_problems": 0, "drc": 0},
+    "injected": {"overlap_objects": 2, "overlap_instances": ["_14522_", "_14662_"], "unplaced": 0, "setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "drv_violations": 0, "connectivity_problems": 9, "drc": 2},
+    "repaired": {"overlap_objects": 0, "unplaced": 0, "setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "drv_violations": 0, "connectivity_problems": 0, "drc": 0}
+  },
+  "golden_repair": {"action": "restore_exact_original_placement", "instance": "_14522_", "location": [32.68, 119.28], "orient": "R180", "post_action": "extractRC"},
+  "fresh_load_verified": true,
+  "independent_reproducibility_runs": 2,
+  "applicable_capabilities": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "omitted_capabilities": {"1": "The primary fault is geometric placement overlap; timing reports are acceptance evidence rather than the diagnosis/ECO-selection driver."},
+  "atomic_tasks": {"manifest": "atomic_tasks/manifest.json", "count": 9, "static_verifiers_passed": 7, "runtime_verifiers": [7, 9], "runtime_verifiers_passed": 2},
+  "status": "validated"
+}
+

@@ -1,0 +1,10 @@
+{
+  "candidate_count": 3,
+  "format_adjustment": "checkPlace reports only the overlap-object count in Innovus 19.10; exact objects were proven by DB origin queries.",
+  "candidates": [
+    {"id": "candidate_a", "mover": "_14522_", "target": "_14662_", "master": "NOR2_X1", "overlap_objects": 2, "fresh_load": true, "repair_clean": true, "injected_drc": 2, "selected": true},
+    {"id": "candidate_b", "mover": "_13944_", "target": "_13932_", "master": "NAND2_X1", "overlap_objects": 2, "fresh_load": true, "repair_clean": true, "injected_drc": 3, "selected": false, "reason": "More injected DRC side effects than candidate A."},
+    {"id": "candidate_c", "mover": "_18717_", "target": "_18539_", "master": "OAI21_X1", "overlap_objects": 2, "fresh_load": true, "repair_clean": true, "injected_drc": 2, "selected": false, "reason": "Candidate A uses two identical smaller cells and is equally stable."}
+  ]
+}
+

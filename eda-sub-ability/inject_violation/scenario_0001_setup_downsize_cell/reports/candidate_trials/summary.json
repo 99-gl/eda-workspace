@@ -1,0 +1,15 @@
+{
+  "baseline_setup_wns_ns": 0.390,
+  "trials": [
+    {"name": "single_data_cell_downsize", "result": "no_setup_violation", "setup_wns_ns": 0.390},
+    {"name": "single_clock_leaf_downsize", "result": "hold_only", "setup_wns_ns": 0.323, "hold_wns_ns": -0.037},
+    {"name": "loaded_inverter_six_loads", "result": "insufficient_setup_degradation", "setup_wns_ns": 0.068},
+    {"name": "four_cell_chain_five_loads", "result": "repaired_drv_not_clean", "setup_wns_ns": -0.373},
+    {"name": "three_cell_chain_four_loads", "result": "selected", "setup_wns_ns": -0.045, "repaired_setup_wns_ns": 0.275}
+  ],
+  "selected_repair": {
+    "action": "size_cell",
+    "targets": ["_16419_", "_16425_", "_16427_"],
+    "target_cells": ["OAI21_X4", "OAI221_X4", "OAI21_X4"]
+  }
+}

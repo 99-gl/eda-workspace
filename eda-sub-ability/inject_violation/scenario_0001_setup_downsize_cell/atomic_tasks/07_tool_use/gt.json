@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "_16419_": "OAI21_X4",
+    "_16425_": "OAI221_X4",
+    "_16427_": "OAI21_X4"
+  },
+  "required_steps": ["refinePlace", "ecoRoute", "extractRC"],
+  "closure": {
+    "setup_wns_min_ns": 0.0,
+    "hold_wns_min_ns": 0.0,
+    "constraints_clean": true,
+    "placement_clean": true,
+    "connectivity_clean": true,
+    "drc_clean": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "scenario_0002_placement_overlap",
+  "source": "tasks.md",
+  "task_count": 9,
+  "tasks": [
+    {"id": 2, "directory": "02_root_cause", "capability": "root-cause analysis", "verifier": "static"},
+    {"id": 3, "directory": "03_object_selection", "capability": "ECO object selection", "verifier": "static"},
+    {"id": 4, "directory": "04_action_selection", "capability": "ECO action selection", "verifier": "static"},
+    {"id": 5, "directory": "05_location_selection", "capability": "physical modification location", "verifier": "static"},
+    {"id": 6, "directory": "06_side_effect_prediction", "capability": "side-effect prediction", "verifier": "static"},
+    {"id": 7, "directory": "07_tool_use", "capability": "Tcl and Innovus tool use", "verifier": "Innovus runtime"},
+    {"id": 8, "directory": "08_verification_closure", "capability": "verification and closure", "verifier": "static"},
+    {"id": 9, "directory": "09_failure_recovery", "capability": "recovery from a wrong placement edit", "verifier": "Innovus runtime"},
+    {"id": 10, "directory": "10_stop_decision", "capability": "stop decision", "verifier": "static"}
+  ],
+  "omitted": {"1": "The primary fault is geometric; timing is acceptance evidence rather than the diagnosis driver."}
+}
+

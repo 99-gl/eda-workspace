@@ -1,0 +1,7 @@
+{
+  "independent_runs": 2,
+  "same_source": "../../baseline/aes_route.enc",
+  "run_1": {"full_flow_marker": true, "fresh_load_injected": true, "fresh_load_repaired": true},
+  "run_2": {"full_flow_marker": true, "fresh_load_injected": true, "fresh_load_repaired": true},
+  "matching_metrics": {"overlap_objects": 2, "overlap_instances": ["_14522_", "_14662_"], "unplaced": 0, "injected_drc": 2, "setup_wns_ns": 0.390, "hold_wns_ns": 0.026, "repaired_drc": 0, "repaired_connectivity": 0}
+}

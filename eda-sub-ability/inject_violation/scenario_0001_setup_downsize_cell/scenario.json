@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scenario_id": "scenario_0001_setup_downsize_cell",
+  "design": "aes_cipher_top",
+  "tool": {
+    "name": "Cadence Innovus",
+    "version": "19.10-p002_1"
+  },
+  "baseline": "../../baseline/aes_route.enc",
+  "injected_checkpoint": "outputs/setup_downsize_cell.enc",
+  "golden_repaired_checkpoint": "outputs/golden_repaired.enc",
+  "primary_violation": "setup",
+  "injection": {
+    "type": "cell_downsize_chain",
+    "fixture_load_cell": "BUF_X8",
+    "fixture_loads_per_net": 4,
+    "targets": [
+      {"instance": "_16419_", "net": "_07405_", "injected_cell": "OAI21_X1", "repair_cell": "OAI21_X4"},
+      {"instance": "_16425_", "net": "_07411_", "injected_cell": "OAI221_X1", "repair_cell": "OAI221_X4"},
+      {"instance": "_16427_", "net": "_07413_", "injected_cell": "OAI21_X1", "repair_cell": "OAI21_X4"}
+    ]
+  },
+  "applicable_capabilities": [1, 2, 3, 4, 6, 7, 8, 9, 10],
+  "atomic_tasks": {
+    "manifest": "atomic_tasks/manifest.json",
+    "count": 9,
+    "static_verifiers_passed": 7,
+    "runtime_verifiers": [7, 9],
+    "runtime_verifiers_passed": 2
+  },
+  "omitted_capabilities": {
+    "5": "Cell sizing does not require buffer branch or physical insertion-location selection."
+  },
+  "metrics": {
+    "prepared": {
+      "setup_wns_ns": 0.276,
+      "setup_tns_ns": 0.0,
+      "hold_wns_ns": 0.026,
+      "hold_tns_ns": 0.0,
+      "constraint_violations": 0
+    },
+    "injected": {
+      "setup_wns_ns": -0.045,
+      "setup_tns_ns": -0.045,
+      "hold_wns_ns": 0.026,
+      "hold_tns_ns": 0.0,
+      "max_transition_terms": 13,
+      "max_capacitance_terms": 3,
+      "real_max_fanout_violations": 0,
+      "drc": 0,
+      "connectivity": 0,
+      "placement": 0
+    },
+    "repaired": {
+      "setup_wns_ns": 0.275,
+      "setup_tns_ns": 0.0,
+      "hold_wns_ns": 0.026,
+      "hold_tns_ns": 0.0,
+      "constraint_violations": 0,
+      "drc": 0,
+      "connectivity": 0,
+      "placement": 0
+    }
+  },
+  "fresh_load_verified": true,
+  "status": "validated"
+}

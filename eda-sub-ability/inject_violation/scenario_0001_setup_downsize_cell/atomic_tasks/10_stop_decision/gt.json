@@ -1,0 +1,5 @@
+{
+  "decision": "stop",
+  "reason": "Setup/Hold、DRV、DRC、connectivity 和 placement 均已通过，继续 ECO 只会增加无必要的面积和风险。",
+  "acceptance": {"timing": true, "drv": true, "physical": true}
+}

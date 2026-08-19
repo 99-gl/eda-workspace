@@ -1,0 +1,8 @@
+Estimated cell power/ground rail width = 0.197 um
+Begin checking placement ... (start mem=903.4M, init mem=906.8M)
+Overlapping with other instance:	2
+*info: Placed = 12781          (Fixed = 1028)
+*info: Unplaced = 0           
+Placement Density:61.56%(15056/24458)
+Placement Density (including fixed std cells):61.98%(15325/24727)
+Finished checkPlace (total: cpu=0:00:00.1, real=0:00:00.0; vio checks: cpu=0:00:00.1, real=0:00:00.0; mem=909.4M)

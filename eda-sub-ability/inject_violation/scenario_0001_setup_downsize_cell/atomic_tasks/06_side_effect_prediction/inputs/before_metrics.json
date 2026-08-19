@@ -1,0 +1,9 @@
+{
+  "setup_wns_ns": -0.045,
+  "hold_wns_ns": 0.026,
+  "max_transition_terms": 13,
+  "max_capacitance_terms": 3,
+  "area_um2": 15366.55,
+  "power_mw": 19.38651828,
+  "congestion_overflow": 1
+}

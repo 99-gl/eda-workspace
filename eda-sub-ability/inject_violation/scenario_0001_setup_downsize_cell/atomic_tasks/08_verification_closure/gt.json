@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "setup_wns_ns": 0.275,
+  "setup_tns_ns": 0.0,
+  "hold_wns_ns": 0.026,
+  "hold_tns_ns": 0.0,
+  "drv_clean": true,
+  "drc_clean": true,
+  "connectivity_clean": true,
+  "placement_clean": true
+}
