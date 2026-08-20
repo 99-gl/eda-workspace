@@ -1,6 +1,39 @@
-# Task S001_01：Setup 最差路径识别
+# Task S001_01：最差 Setup 路径获取
 
-从 `initial_state/design.enc` fresh-load 设计，执行 PostRoute Setup 分析并生成 `reports/setup`。将最差路径的检查类型、起点、终点、slack、path group 和 analysis view 写入 `answer.json`。不得修改设计或约束。
+## 任务目标
+
+基于 Cadence Innovus 19.10 对当前提供的初始设计执行 Setup 时序分析，并识别最差 Setup 路径。
+
+## 输入数据
+
+从以下路径加载初始设计：
+
+`initial_state/design.enc`
+
+该 checkpoint 是自包含的，其中包括 MMMC 时序配置和物理设计数据。
+
+## 任务要求
+
+对当前设计执行 PostRoute Setup 时序分析，并将报告生成到：
+
+`reports/setup`
+
+从生成的报告中提取最差路径的：
+
+- 检查类型；
+- Beginpoint；
+- Endpoint；
+- Slack，单位为 ns；
+- Path Group；
+- Analysis View。
+
+分析过程中不得修改设计或时序约束。
+
+## 提交要求
+
+将分析结果保存为：`answer.json`
+
+格式如下：
 
 ```json
 {
