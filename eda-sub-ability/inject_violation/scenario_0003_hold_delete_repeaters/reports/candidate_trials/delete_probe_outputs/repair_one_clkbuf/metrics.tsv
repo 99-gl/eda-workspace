@@ -1,0 +1,7 @@
+hold_slack_ns	0.009
+hold_beginpoint	text_in[23]
+hold_endpoint	_19212_/D
+hold_path_group	aes_clk
+setup_slack_ns	0.390
+setup_beginpoint	_19477_/CK
+setup_endpoint	_19318_/D

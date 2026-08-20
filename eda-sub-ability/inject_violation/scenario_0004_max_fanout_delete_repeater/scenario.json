@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scenario_id": "scenario_0004_max_fanout_delete_repeater",
+  "design": "aes_cipher_top",
+  "tool": {"name": "Cadence Innovus", "version": "19.10-p002_1"},
+  "baseline": "../../baseline/aes_route.enc",
+  "injected_checkpoint": "outputs/max_fanout_delete_repeater.enc",
+  "golden_repaired_checkpoint": "outputs/golden_repaired.enc",
+  "primary_violation": "max_fanout",
+  "violation_counting": {"metric": "real fanout violations (remark R)", "baseline_clock_only_violations_remark_c": 17},
+  "injection": {
+    "type": "delete_single_data_fanout_tree_repeater",
+    "deleted_instance": "FE_OFC611_00305",
+    "master": "BUF_X1",
+    "original_location": [14.06, 59.08],
+    "original_orientation": "R0",
+    "upstream_driver": {"term": "_13365_/ZN", "master": "INV_X1"},
+    "merged_net": "_00305_",
+    "original_output_net": "FE_OFN611_00305",
+    "original_sink_terms": ["_19581_/D", "_13985_/A", "_13946_/A", "_13929_/A1", "_13913_/A", "_13812_/A1", "_13799_/A1", "_13736_/A1", "_13704_/A"],
+    "fanout_limit": 16,
+    "merged_fanout": 17
+  },
+  "golden_repair": {
+    "action": "restore_deleted_repeater_and_original_sink_partition",
+    "instance": "FE_OFC611_00305",
+    "master": "BUF_X1",
+    "location": [14.06, 59.08],
+    "orientation": "R0",
+    "output_net": "FE_OFN611_00305",
+    "sink_count": 9
+  },
+  "metrics": {
+    "prepared": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "real_fanout": 0, "transition": 0, "capacitance": 0, "placement": 0, "connectivity": 0, "drc": 0},
+    "injected": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "real_fanout": 1, "merged_fanout": 17, "transition": 0, "capacitance": 0, "placement": 0, "connectivity": 0, "drc": 0, "cells": 11772, "area_um2": 15056.1, "power_mw": 19.23741035, "congestion_overflow": 1},
+    "repaired": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "real_fanout": 0, "transition": 0, "capacitance": 0, "placement": 0, "connectivity": 0, "drc": 0, "cells": 11773, "area_um2": 15056.9, "power_mw": 19.23749863, "congestion_overflow": 1}
+  },
+  "candidate_trials": {"attempted": 3, "selected": "candidate_b", "summary": "reports/candidate_trials/summary.json"},
+  "applicable_capabilities": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "omitted_capabilities": [{"id": 1, "reason": "Primary detection and object proof use fanout/topology reports; STA reports are closure-only evidence."}],
+  "atomic_tasks": {"manifest": "atomic_tasks/manifest.json", "count": 9, "static_verifiers_passed": 7, "runtime_verifiers": [7, 9], "runtime_verifiers_passed": 2},
+  "fresh_load_verified": true,
+  "independent_reproducibility_runs": 2,
+  "antenna_check": {"status": "not_available", "reason": "The Nangate45 LEF lacks process antenna rule data."},
+  "status": "validated"
+}
+

@@ -1,0 +1,12 @@
+{
+  "tool": "Cadence Innovus 19.10-p002_1",
+  "independent_runs": 2,
+  "baseline_copies": 2,
+  "selected_instance": "FE_OFC611_00305",
+  "run_1": {"injected_fanout": 17, "injected_real_fanout": 1, "injected_setup_wns_ns": 0.390, "injected_hold_wns_ns": 0.026, "repaired_real_fanout": 0, "repaired_setup_wns_ns": 0.390, "repaired_hold_wns_ns": 0.026, "fresh_load_injected": true, "fresh_load_repaired": true},
+  "run_2": {"injected_fanout": 17, "injected_real_fanout": 1, "injected_setup_wns_ns": 0.390, "injected_hold_wns_ns": 0.026, "repaired_real_fanout": 0, "repaired_setup_wns_ns": 0.390, "repaired_hold_wns_ns": 0.026, "fresh_load_injected": true, "fresh_load_repaired": true},
+  "object_identity_match": true,
+  "metric_match": true,
+  "result": "reproducible"
+}
+

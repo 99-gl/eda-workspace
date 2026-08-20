@@ -1,0 +1,6 @@
+deleted_instance	master	original_x	original_y
+FE_PHC917_00140	CLKBUF_X1	47.31	19.88
+FE_PHC1249_00140	BUF_X1	50.16	25.48
+target_net	_00140_
+target_sink	FE_PHC963_00140/A
+hold_slack_ns	-0.019

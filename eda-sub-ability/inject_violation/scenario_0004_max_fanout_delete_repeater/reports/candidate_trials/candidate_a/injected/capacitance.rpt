@@ -1,0 +1,11 @@
+*info: 20 clock nets excluded
+*info: 2 special nets excluded.
+*info: 33 no-driver nets excluded.
+*info: capacitance violations report
+# Net / InstPin                         MaxCap      Cap             CapSlack         CellPort            Remark    
+#
+_09155_
+    _18456_/Z                               0.025       0.035           -0.010           XOR2_X1/Z                    R 
+
+*info: there is 1 max_cap violation in the design.
+*info: 1 violation is real (remark R).

@@ -1,0 +1,352 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v19.10-p002_1, built Fri Apr 19 15:18:11 PDT 2019
+Options:	-nowin -files /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/scripts/fresh_load_smoke.tcl 
+Date:		Thu Aug 20 23:00:15 2026
+Host:		qingteng (x86_64 w/Linux 4.14.174) (4cores*4cpus*Intel(R) Xeon(R) Processor @ 2.90GHz 22528KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	19.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+**ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /opt/cadence/INNOVUS/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+Create and set the environment variable TMPDIR to /tmp/innovus_temp_22396_qingteng_host_ZGd2Sb.
+
+Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+Sourcing file "/home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/scripts/fresh_load_smoke.tcl" ...
+#% Begin load design ... (date=08/20 23:00:23, mem=460.5M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'aes_cipher_top' saved by 'Innovus' '19.10-p002_1' on 'Thu Aug 20 22:59:17 2026'.
+**ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+% Begin Load MMMC data ... (date=08/20 23:00:24, mem=462.1M)
+% End Load MMMC data ... (date=08/20 23:00:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=462.4M, current mem=462.4M)
+
+Loading LEF file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/lef/NangateOpenCellLibrary.tech.lef ...
+
+Loading LEF file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/lef/NangateOpenCellLibrary.macro.mod.lef ...
+Set DBUPerIGU to M2 pitch 380.
+
+viaInitial starts at Thu Aug 20 23:00:24 2026
+viaInitial ends at Thu Aug 20 23:00:24 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/viewDefinition.tcl
+Reading LIBSET_TYP timing library '/home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib' ...
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+**WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_repro_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+Read 135 cells in library 'NangateOpenCellLibrary' 
+*** End library_loading (cpu=0.01min, real=0.00min, mem=27.9M, fe_cpu=0.24min, fe_real=0.15min, fe_mem=593.7M) ***
+% Begin Load netlist data ... (date=08/20 23:00:24, mem=479.7M)
+*** Begin netlist parsing (mem=593.7M) ***
+**WARN: (IMPVL-159):	Pin 'Z' of cell 'LOGIC1_X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'Z' of cell 'LOGIC0_X1' is defined in LEF but not in the timing library.
+Created 135 new cells from 1 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.v.bin'
+Reading binary database version 2 in 1-threaded mode
+
+*** Memory Usage v#1 (Current mem = 604.688M, initial mem = 262.344M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=604.7M) ***
+% End Load netlist data ... (date=08/20 23:00:24, total cpu=0:00:00.0, real=0:00:00.0, peak res=488.4M, current mem=488.4M)
+Set top cell to aes_cipher_top.
+**WARN: (IMPTS-124):	Timing library description of pin 'Z' is missing from cell 'LOGIC1_X1' in timing library 'NangateOpenCellLibrary'.
+**WARN: (IMPTS-124):	Timing library description of pin 'Z' is missing from cell 'LOGIC0_X1' in timing library 'NangateOpenCellLibrary'.
+Hooked 135 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell aes_cipher_top ...
+*** Netlist is unique.
+** info: there are 136 modules.
+** info: there are 11771 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 640.602M, initial mem = 262.344M) ***
+*info: set bottom ioPad orient R0
+Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Loading preference file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/gui.pref.tcl ...
+##  Process: 45            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '/home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/mmmc/modes/FUNC/FUNC.sdc' ...
+Current (total cpu=0:00:14.9, real=0:00:09.0, peak res=658.5M, current mem=658.5M)
+aes_cipher_top
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=678.0M, current mem=678.0M)
+Current (total cpu=0:00:15.0, real=0:00:09.0, peak res=678.0M, current mem=678.0M)
+Reading latency file '/home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/mmmc/views/VIEW_TYP/latency.sdc' ...
+Total number of combinational cells: 100
+Total number of sequential cells: 29
+Total number of tristate cells: 6
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+Total number of usable buffers: 9
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: INV_X1 INV_X2 INV_X4 INV_X8 INV_X16 INV_X32
+Total number of usable inverters: 6
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+Reading floorplan file - /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.fp.gz (mem = 840.6M).
+% Begin Load floorplan data ... (date=08/20 23:00:25, mem=700.7M)
+*info: reset 12625 existing net BottomPreferredLayer and AvoidDetour
+net ignore based on current view = 0
+Deleting old partition specification.
+Set FPlanBox to (0 0 355680 353920)
+Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+ ... processed partition successfully.
+Reading binary special route file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.fp.spr.gz (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:59:15 2026, version: 1)
+There are 20 nets with weight being set
+There are 20 nets with bottomPreferredRoutingLayer being set
+There are 20 nets with avoidDetour being set
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Delete all existing relative floorplan constraints.
+% End Load floorplan data ... (date=08/20 23:00:25, total cpu=0:00:00.1, real=0:00:00.0, peak res=704.3M, current mem=704.3M)
+Reading congestion map file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=08/20 23:00:25, mem=704.6M)
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=08/20 23:00:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=706.3M, current mem=706.3M)
+Loading place ...
+% Begin Load placement data ... (date=08/20 23:00:25, mem=706.3M)
+Reading placement file - /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:59:15 2026, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Checked 2 GNC rules.
+*** applyConnectGlobalNets disabled.
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=838.6M) ***
+Total net length = 1.487e+05 (7.671e+04 7.197e+04) (ext = 9.167e+03)
+% End Load placement data ... (date=08/20 23:00:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=708.3M, current mem=708.1M)
+Reading PG file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.pg.gz
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=834.6M) ***
+% Begin Load routing data ... (date=08/20 23:00:25, mem=708.4M)
+Reading routing file - /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.route.gz.
+Reading Innovus routing data (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:59:15 2026 Format: 19.1) ...
+*** Total 12594 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.2 real=0:00:00.0 mem=848.6M) ***
+% End Load routing data ... (date=08/20 23:00:25, total cpu=0:00:00.2, real=0:00:00.0, peak res=726.6M, current mem=725.7M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=854.6M) ***
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 1 active RC Corners ...
+Reading Capacitance Table File /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/mmmc/NangateOpenCellLibrary.captable ...
+Cap table was created using Encounter 08.10-p004_1.
+Process name: master_techFreePDK45.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: VIEW_TYP
+    RC-Corner Name        : RC_TYP
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : '/home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/mmmc/NangateOpenCellLibrary.captable'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Start generating vias ...
+#Skip building auto via since it is not turned on.
+Via generation completed.
+% Begin Load power constraints ... (date=08/20 23:00:26, mem=753.7M)
+source /home/host/hold_delete_repeaters_repro_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top_power_constraints.tcl
+'set_default_switching_activity' finished successfully.
+% End Load power constraints ... (date=08/20 23:00:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=754.2M, current mem=754.2M)
+% Begin load AAE data ... (date=08/20 23:00:26, mem=754.2M)
+AAE DB initialization (MEM=894.508 CPU=0:00:00.2 REAL=0:00:00.0) 
+% End load AAE data ... (date=08/20 23:00:26, total cpu=0:00:00.4, real=0:00:00.0, peak res=760.9M, current mem=760.9M)
+Restoring CCOpt config...
+  Extracting original clock gating for aes_clk...
+    clock_tree aes_clk contains 562 sinks and 0 clock gates.
+    Extraction for aes_clk complete.
+  Extracting original clock gating for aes_clk done.
+  The skew group aes_clk/FUNC was created. It contains 562 sinks and 1 sources.
+  The skew group aes_clk/FUNC was created. It contains 562 sinks and 1 sources.
+**WARN: (IMPCCOPT-2332):	The property adjacent_rows_legal is deprecated. It still works, but it may be removed in a future release.
+Restoring CCOpt config done.
+Total number of combinational cells: 100
+Total number of sequential cells: 29
+Total number of tristate cells: 6
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+Total number of usable buffers: 9
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: INV_X1 INV_X2 INV_X4 INV_X8 INV_X16 INV_X32
+Total number of usable inverters: 6
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.10-p002_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+#% End load design ... (date=08/20 23:00:26, total cpu=0:00:02.4, real=0:00:03.0, peak res=766.2M, current mem=765.5M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPTS-124            2  Timing library description of pin '%s' i...
+WARNING   IMPVL-159            2  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   IMPCCOPT-2332        1  The property %s is deprecated. It still ...
+ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+WARNING   IMPCTE-107           1  The following globals have been obsolete...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+*** Message Summary: 27 warning(s), 2 error(s)
+
+Extraction called for design 'aes_cipher_top' of instances=12779 and nets=12625 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design aes_cipher_top.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: RC_TYP
+extractDetailRC Option : -outfile /tmp/innovus_temp_22396_qingteng_host_ZGd2Sb/aes_cipher_top_22396_TxwBHt.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 893.5M)
+Extracted 10.0014% (CPU Time= 0:00:00.3  MEM= 994.8M)
+Extracted 20.0014% (CPU Time= 0:00:00.4  MEM= 995.8M)
+Extracted 30.0014% (CPU Time= 0:00:00.4  MEM= 998.8M)
+Extracted 40.0014% (CPU Time= 0:00:00.5  MEM= 1002.8M)
+Extracted 50.0014% (CPU Time= 0:00:00.6  MEM= 1006.8M)
+Extracted 60.0014% (CPU Time= 0:00:00.6  MEM= 1010.8M)
+Extracted 70.0014% (CPU Time= 0:00:00.7  MEM= 1012.8M)
+Extracted 80.0014% (CPU Time= 0:00:00.8  MEM= 1014.8M)
+Extracted 90.0014% (CPU Time= 0:00:01.0  MEM= 1019.8M)
+Extracted 100% (CPU Time= 0:00:01.3  MEM= 1021.8M)
+Number of Extracted Resistors     : 232254
+Number of Extracted Ground Cap.   : 243108
+Number of Extracted Coupling Cap. : 801432
+Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+ Corner: RC_TYP
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1003.8M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:01.7  Real Time: 0:00:02.0  MEM: 1003.828M)
+**WARN: (TCLCMD-1131):	'The -max_points parameter of the report_timing command is obsolete. The timing engine will map it to -max_paths parameter. For future releases, you should remove this parameter from your scripts.'
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: aes_cipher_top
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1020.12)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: 1 threads acquired from CTE.
+Total number of fetched objects 12592
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 12625,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1052.34 CPU=0:00:02.7 REAL=0:00:03.0)
+End delay calculation (fullDC). (MEM=1052.34 CPU=0:00:03.3 REAL=0:00:03.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1044.3M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1044.3M)
+Starting SI iteration 2
+Calculate late delays in OCV mode...
+Calculate early delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1023.45)
+Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12592. 
+Total number of fetched objects 12592
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 12625,  2.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1018.61 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1018.61 CPU=0:00:00.2 REAL=0:00:01.0)
+HOLD_DELETE_REPEATERS_FRESH_LOAD_COMPLETE yes -0.019
+
+*** Memory Usage v#1 (Current mem = 996.609M, initial mem = 262.344M) ***
+*** Message Summary: 28 warning(s), 5 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:22.7, real=0:00:18.0, mem=996.6M) ---
+

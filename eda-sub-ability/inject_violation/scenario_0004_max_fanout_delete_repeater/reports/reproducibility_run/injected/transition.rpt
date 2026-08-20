@@ -1,0 +1,41 @@
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: aes_cipher_top
+# Design Mode: 45nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1191.59)
+Total number of fetched objects 12593
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 12626,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1225.73 CPU=0:00:02.6 REAL=0:00:03.0)
+End delay calculation (fullDC). (MEM=1225.73 CPU=0:00:03.0 REAL=0:00:03.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1225.7M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:01.0, MEM = 1225.7M)
+Starting SI iteration 2
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1193.85)
+Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12593. 
+Total number of fetched objects 12593
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+AAE_INFO-618: Total number of nets in the design is 12626,  0.1 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1200.01 CPU=0:00:00.1 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1200.01 CPU=0:00:00.2 REAL=0:00:00.0)
+*info: 20 clock nets excluded
+*info: 2 special nets excluded.
+*info: 33 no-driver nets excluded.
+*info: transition time violations report
+# Net / InstPin                               MaxTranTime      TranTime         TranSlack        CellPort             Remark    
+#
+
+*info: there is 0 max_tran violation in the design.

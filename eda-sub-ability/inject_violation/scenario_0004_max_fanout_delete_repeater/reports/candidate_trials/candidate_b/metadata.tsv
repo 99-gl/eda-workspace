@@ -1,0 +1,13 @@
+instance	FE_OFC611_00305
+master	BUF_X1
+x	14.06
+y	59.08
+orient	R0
+input_net	_00305_
+output_net	FE_OFN611_00305
+upstream_loads	9
+output_loads	9
+merged_fanout	17
+driver_term	_13365_/ZN
+driver_master	INV_X1
+sinks	_19581_/D,_13985_/A,_13946_/A,_13929_/A1,_13913_/A,_13812_/A1,_13799_/A1,_13736_/A1,_13704_/A

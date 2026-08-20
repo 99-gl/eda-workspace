@@ -1,0 +1,10 @@
+{
+  "deleted_instance": "FE_OFC611_00305",
+  "original_master": "BUF_X1",
+  "original_location": [14.06, 59.08],
+  "original_sink_count": 9,
+  "merged_fanout": 17,
+  "max_fanout": 16,
+  "constraints_must_not_change": true
+}
+

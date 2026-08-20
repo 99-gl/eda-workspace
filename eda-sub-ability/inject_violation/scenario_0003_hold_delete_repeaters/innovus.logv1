@@ -1,0 +1,1495 @@
+[08/20 22:54:39      0s] 
+[08/20 22:54:39      0s] Cadence Innovus(TM) Implementation System.
+[08/20 22:54:39      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+[08/20 22:54:39      0s] 
+[08/20 22:54:39      0s] Version:	v19.10-p002_1, built Fri Apr 19 15:18:11 PDT 2019
+[08/20 22:54:39      0s] Options:	-nowin -files /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/validate_golden.tcl 
+[08/20 22:54:39      0s] Date:		Thu Aug 20 22:54:39 2026
+[08/20 22:54:39      0s] Host:		qingteng (x86_64 w/Linux 4.14.174) (4cores*4cpus*Intel(R) Xeon(R) Processor @ 2.90GHz 22528KB)
+[08/20 22:54:39      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[08/20 22:54:39      0s] 
+[08/20 22:54:39      0s] License:
+[08/20 22:54:39      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
+[08/20 22:54:39      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[08/20 22:54:40      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /opt/cadence/INNOVUS/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+@(#)CDS: Innovus v19.10-p002_1 (64bit) 04/19/2019 15:18 (Linux 2.6.32-431.11.2.el6.x86_64)
+[08/20 22:54:48     13s] @(#)CDS: NanoRoute 19.10-p002_1 NR190418-1643/19_10-UB (database version 18.20, 458.7.1) {superthreading v1.51}
+[08/20 22:54:48     13s] @(#)CDS: AAE 19.10-b002 (64bit) 04/19/2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[08/20 22:54:48     13s] @(#)CDS: CTE 19.10-p002_1 () Apr 19 2019 06:39:48 ( )
+[08/20 22:54:48     13s] @(#)CDS: SYNTECH 19.10-b001_1 () Apr  4 2019 03:00:51 ( )
+[08/20 22:54:48     13s] @(#)CDS: CPE v19.10-p002
+[08/20 22:54:48     13s] @(#)CDS: IQuantus/TQuantus 19.1.0-e101 (64bit) Thu Feb 28 10:29:46 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[08/20 22:54:48     13s] @(#)CDS: OA 22.60-p012 Thu Dec 20 13:36:08 2018
+[08/20 22:54:48     13s] @(#)CDS: SGN 18.10-d003 (18-Jul-2018) (64 bit executable, Qt5.9.1)
+[08/20 22:54:48     13s] @(#)CDS: RCDB 11.14.18
+[08/20 22:54:48     13s] @(#)CDS: STYLUS 19.10-b001_1 (03/15/2019 08:18 PDT)
+[08/20 22:54:48     13s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_16390_qingteng_host_ERmkTQ.
+
+[08/20 22:54:48     13s] Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] **INFO:  MMMC transition support version v31-84 
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[08/20 22:54:48     14s] <CMD> suppressMessage ENCEXT-2799
+[08/20 22:54:48     14s] Sourcing file "/home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/validate_golden.tcl" ...
+[08/20 22:54:48     14s] <CMD> is_common_ui_mode
+[08/20 22:54:48     14s] <CMD> restoreDesign /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat aes_cipher_top
+[08/20 22:54:48     14s] #% Begin load design ... (date=08/20 22:54:48, mem=463.8M)
+[08/20 22:54:48     14s] Set Default Input Pin Transition as 0.1 ps.
+[08/20 22:54:48     14s] Loading design 'aes_cipher_top' saved by 'Innovus' '19.10-p002_1' on 'Thu Aug 20 22:54:39 2026'.
+[08/20 22:54:48     14s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+% Begin Load MMMC data ... (date=08/20 22:54:48, mem=465.4M)
+[08/20 22:54:48     14s] % End Load MMMC data ... (date=08/20 22:54:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=465.7M, current mem=465.7M)
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] Loading LEF file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/lef/NangateOpenCellLibrary.tech.lef ...
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] Loading LEF file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/lef/NangateOpenCellLibrary.macro.mod.lef ...
+[08/20 22:54:48     14s] Set DBUPerIGU to M2 pitch 380.
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] viaInitial starts at Thu Aug 20 22:54:48 2026
+viaInitial ends at Thu Aug 20 22:54:48 2026
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[08/20 22:54:48     14s] Loading view definition file from /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/viewDefinition.tcl
+[08/20 22:54:48     14s] Reading LIBSET_TYP timing library '/home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib' ...
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /home/host/hold_delete_repeaters_20260820/baseline/aes_route.enc.dat/libs/mmmc/NangateOpenCellLibrary_typical.lib)
+[08/20 22:54:48     14s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[08/20 22:54:48     14s] Read 135 cells in library 'NangateOpenCellLibrary' 
+[08/20 22:54:48     14s] *** End library_loading (cpu=0.01min, real=0.00min, mem=27.9M, fe_cpu=0.24min, fe_real=0.15min, fe_mem=601.7M) ***
+[08/20 22:54:48     14s] % Begin Load netlist data ... (date=08/20 22:54:48, mem=482.9M)
+[08/20 22:54:48     14s] *** Begin netlist parsing (mem=601.7M) ***
+[08/20 22:54:48     14s] **WARN: (IMPVL-159):	Pin 'Z' of cell 'LOGIC1_X1' is defined in LEF but not in the timing library.
+[08/20 22:54:48     14s] **WARN: (IMPVL-159):	Pin 'Z' of cell 'LOGIC0_X1' is defined in LEF but not in the timing library.
+[08/20 22:54:48     14s] Created 135 new cells from 1 timing libraries.
+[08/20 22:54:48     14s] Reading netlist ...
+[08/20 22:54:48     14s] Backslashed names will retain backslash and a trailing blank character.
+[08/20 22:54:48     14s] Reading verilogBinary netlist '/home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.v.bin'
+[08/20 22:54:48     14s] Reading binary database version 2 in 1-threaded mode
+[08/20 22:54:48     14s] 
+[08/20 22:54:48     14s] *** Memory Usage v#1 (Current mem = 612.695M, initial mem = 262.340M) ***
+[08/20 22:54:48     14s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=612.7M) ***
+[08/20 22:54:49     14s] % End Load netlist data ... (date=08/20 22:54:48, total cpu=0:00:00.0, real=0:00:00.0, peak res=491.6M, current mem=491.6M)
+[08/20 22:54:49     14s] Set top cell to aes_cipher_top.
+[08/20 22:54:49     14s] **WARN: (IMPTS-124):	Timing library description of pin 'Z' is missing from cell 'LOGIC1_X1' in timing library 'NangateOpenCellLibrary'.
+[08/20 22:54:49     14s] **WARN: (IMPTS-124):	Timing library description of pin 'Z' is missing from cell 'LOGIC0_X1' in timing library 'NangateOpenCellLibrary'.
+[08/20 22:54:49     14s] Hooked 135 DB cells to tlib cells.
+[08/20 22:54:49     14s] Starting recursive module instantiation check.
+[08/20 22:54:49     14s] No recursion found.
+[08/20 22:54:49     14s] Building hierarchical netlist for Cell aes_cipher_top ...
+[08/20 22:54:49     14s] *** Netlist is unique.
+[08/20 22:54:49     14s] Setting Std. cell height to 2800 DBU (smallest netlist inst).
+[08/20 22:54:49     14s] ** info: there are 136 modules.
+[08/20 22:54:49     14s] ** info: there are 11771 stdCell insts.
+[08/20 22:54:49     14s] 
+[08/20 22:54:49     14s] *** Memory Usage v#1 (Current mem = 648.609M, initial mem = 262.340M) ***
+[08/20 22:54:49     14s] *info: set bottom ioPad orient R0
+[08/20 22:54:49     14s] Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+[08/20 22:54:49     14s] Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+[08/20 22:54:49     14s] Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+[08/20 22:54:49     14s] Set Default Net Delay as 1000 ps.
+[08/20 22:54:49     14s] Set Default Net Load as 0.5 pF. 
+[08/20 22:54:49     14s] Set Default Input Pin Transition as 0.1 ps.
+[08/20 22:54:49     14s] Loading preference file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/gui.pref.tcl ...
+[08/20 22:54:49     14s] ##  Process: 45            (User Set)               
+[08/20 22:54:49     14s] ##     Node: (not set)                           
+[08/20 22:54:49     14s] 
+##  Check design process and node:  
+##  Design tech node is not set.
+
+[08/20 22:54:49     14s] Applying the recommended capacitance filtering threshold values for 45nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[08/20 22:54:49     14s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[08/20 22:54:49     14s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[08/20 22:54:49     14s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[08/20 22:54:49     14s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[08/20 22:54:49     14s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[08/20 22:54:49     15s] Extraction setup Delayed 
+[08/20 22:54:49     15s] *Info: initialize multi-corner CTS.
+[08/20 22:54:49     15s] Reading timing constraints file '/home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/mmmc/modes/FUNC/FUNC.sdc' ...
+[08/20 22:54:49     15s] Current (total cpu=0:00:15.2, real=0:00:10.0, peak res=661.7M, current mem=661.7M)
+[08/20 22:54:49     15s] INFO (CTE): Constraints read successfully.
+[08/20 22:54:49     15s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=681.3M, current mem=681.3M)
+[08/20 22:54:49     15s] Current (total cpu=0:00:15.3, real=0:00:10.0, peak res=681.3M, current mem=681.3M)
+[08/20 22:54:49     15s] Reading latency file '/home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/mmmc/views/VIEW_TYP/latency.sdc' ...
+[08/20 22:54:49     15s] Creating Cell Server ...(0, 1, 1, 1)
+[08/20 22:54:49     15s] Summary for sequential cells identification: 
+[08/20 22:54:49     15s]   Identified SBFF number: 16
+[08/20 22:54:49     15s]   Identified MBFF number: 0
+[08/20 22:54:49     15s]   Identified SB Latch number: 0
+[08/20 22:54:49     15s]   Identified MB Latch number: 0
+[08/20 22:54:49     15s]   Not identified SBFF number: 0
+[08/20 22:54:49     15s]   Not identified MBFF number: 0
+[08/20 22:54:49     15s]   Not identified SB Latch number: 0
+[08/20 22:54:49     15s]   Not identified MB Latch number: 0
+[08/20 22:54:49     15s]   Number of sequential cells which are not FFs: 13
+[08/20 22:54:49     15s] Total number of combinational cells: 100
+[08/20 22:54:49     15s] Total number of sequential cells: 29
+[08/20 22:54:49     15s] Total number of tristate cells: 6
+[08/20 22:54:49     15s] Total number of level shifter cells: 0
+[08/20 22:54:49     15s] Total number of power gating cells: 0
+[08/20 22:54:49     15s] Total number of isolation cells: 0
+[08/20 22:54:49     15s] Total number of power switch cells: 0
+[08/20 22:54:49     15s] Total number of pulse generator cells: 0
+[08/20 22:54:49     15s] Total number of always on buffers: 0
+[08/20 22:54:49     15s] Total number of retention cells: 0
+[08/20 22:54:49     15s] List of usable buffers: BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+[08/20 22:54:49     15s] Total number of usable buffers: 9
+[08/20 22:54:49     15s] List of unusable buffers:
+[08/20 22:54:49     15s] Total number of unusable buffers: 0
+[08/20 22:54:49     15s] List of usable inverters: INV_X1 INV_X2 INV_X4 INV_X8 INV_X16 INV_X32
+[08/20 22:54:49     15s] Total number of usable inverters: 6
+[08/20 22:54:49     15s] List of unusable inverters:
+[08/20 22:54:49     15s] Total number of unusable inverters: 0
+[08/20 22:54:49     15s] List of identified usable delay cells:
+[08/20 22:54:49     15s] Total number of identified usable delay cells: 0
+[08/20 22:54:49     15s] List of identified unusable delay cells:
+[08/20 22:54:49     15s] Total number of identified unusable delay cells: 0
+[08/20 22:54:49     15s] Creating Cell Server, finished. 
+[08/20 22:54:49     15s] 
+[08/20 22:54:49     15s] No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+[08/20 22:54:49     15s] Deleting Cell Server ...
+[08/20 22:54:49     15s] Reading floorplan file - /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.fp.gz (mem = 848.6M).
+[08/20 22:54:49     15s] % Begin Load floorplan data ... (date=08/20 22:54:49, mem=703.9M)
+[08/20 22:54:49     15s] *info: reset 12625 existing net BottomPreferredLayer and AvoidDetour
+[08/20 22:54:49     15s] net ignore based on current view = 0
+[08/20 22:54:49     15s] Deleting old partition specification.
+[08/20 22:54:49     15s] Set FPlanBox to (0 0 355680 353920)
+[08/20 22:54:49     15s] Generated pitch 1.68 in metal10 is different from 1.6 defined in technology file in preferred direction.
+[08/20 22:54:49     15s] Generated pitch 0.84 in metal8 is different from 0.8 defined in technology file in preferred direction.
+[08/20 22:54:49     15s] Generated pitch 0.84 in metal7 is different from 0.8 defined in technology file in preferred direction.
+[08/20 22:54:49     15s]  ... processed partition successfully.
+[08/20 22:54:49     15s] Reading binary special route file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.fp.spr.gz (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:54:37 2026, version: 1)
+[08/20 22:54:49     15s] There are 20 nets with weight being set
+[08/20 22:54:49     15s] There are 20 nets with bottomPreferredRoutingLayer being set
+[08/20 22:54:49     15s] There are 20 nets with avoidDetour being set
+[08/20 22:54:49     15s] Extracting standard cell pins and blockage ...... 
+[08/20 22:54:49     15s] Pin and blockage extraction finished
+[08/20 22:54:49     15s] % End Load floorplan data ... (date=08/20 22:54:49, total cpu=0:00:00.1, real=0:00:00.0, peak res=707.6M, current mem=707.6M)
+[08/20 22:54:49     15s] Reading congestion map file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.route.congmap.gz ...
+[08/20 22:54:49     15s] % Begin Load SymbolTable ... (date=08/20 22:54:49, mem=707.9M)
+[08/20 22:54:49     15s] Suppress "**WARN ..." messages.
+[08/20 22:54:49     15s] routingBox: (0 0) (355680 353920)
+[08/20 22:54:49     15s] coreBox:    (20140 20160) (335540 333760)
+[08/20 22:54:49     15s] Un-suppress "**WARN ..." messages.
+[08/20 22:54:49     15s] % End Load SymbolTable ... (date=08/20 22:54:49, total cpu=0:00:00.1, real=0:00:00.0, peak res=709.6M, current mem=709.5M)
+[08/20 22:54:49     15s] Loading place ...
+[08/20 22:54:49     15s] % Begin Load placement data ... (date=08/20 22:54:49, mem=709.5M)
+[08/20 22:54:49     15s] Reading placement file - /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.place.gz.
+[08/20 22:54:49     15s] ** Reading stdCellPlacement_binary (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:54:37 2026, version# 2) ...
+[08/20 22:54:49     15s] Read Views for adaptive view pruning ...
+[08/20 22:54:49     15s] Read 0 views from Binary DB for adaptive view pruning
+[08/20 22:54:49     15s] *** Checked 2 GNC rules.
+[08/20 22:54:49     15s] *** applyConnectGlobalNets disabled.
+[08/20 22:54:49     15s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=846.6M) ***
+[08/20 22:54:49     15s] Total net length = 1.487e+05 (7.671e+04 7.197e+04) (ext = 9.167e+03)
+[08/20 22:54:49     15s] % End Load placement data ... (date=08/20 22:54:49, total cpu=0:00:00.0, real=0:00:00.0, peak res=711.6M, current mem=711.4M)
+[08/20 22:54:50     15s] Reading PG file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.pg.gz
+[08/20 22:54:50     15s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:01.0 mem=842.6M) ***
+[08/20 22:54:50     15s] % Begin Load routing data ... (date=08/20 22:54:50, mem=711.7M)
+[08/20 22:54:50     15s] Reading routing file - /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.route.gz.
+[08/20 22:54:50     15s] Reading Innovus routing data (Created by Innovus v19.10-p002_1 on Thu Aug 20 22:54:38 2026 Format: 19.1) ...
+[08/20 22:54:50     15s] *** Total 12594 nets are successfully restored.
+[08/20 22:54:50     15s] *** Completed restoreRoute (cpu=0:00:00.2 real=0:00:00.0 mem=856.6M) ***
+[08/20 22:54:50     15s] % End Load routing data ... (date=08/20 22:54:50, total cpu=0:00:00.2, real=0:00:00.0, peak res=729.9M, current mem=729.0M)
+[08/20 22:54:50     15s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[08/20 22:54:50     15s] Reading property file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.prop
+[08/20 22:54:50     15s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=862.6M) ***
+[08/20 22:54:50     15s] Set Default Input Pin Transition as 0.1 ps.
+[08/20 22:54:50     15s] Extraction setup called explicitly through PreRoutePatternsIfNeeded call.
+[08/20 22:54:50     15s] Extraction setup Started 
+[08/20 22:54:50     15s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[08/20 22:54:50     15s] Reading Capacitance Table File /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/mmmc/NangateOpenCellLibrary.captable ...
+[08/20 22:54:50     15s] Cap table was created using Encounter 08.10-p004_1.
+[08/20 22:54:50     15s] Process name: master_techFreePDK45.
+[08/20 22:54:50     15s] Importing multi-corner RC tables ... 
+[08/20 22:54:50     15s] Summary of Active RC-Corners : 
+[08/20 22:54:50     15s]  
+[08/20 22:54:50     15s]  Analysis View: VIEW_TYP
+[08/20 22:54:50     15s]     RC-Corner Name        : RC_TYP
+[08/20 22:54:50     15s]     RC-Corner Index       : 0
+[08/20 22:54:50     15s]     RC-Corner Temperature : 25 Celsius
+[08/20 22:54:50     15s]     RC-Corner Cap Table   : '/home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/libs/mmmc/NangateOpenCellLibrary.captable'
+[08/20 22:54:50     15s]     RC-Corner PreRoute Res Factor         : 1
+[08/20 22:54:50     15s]     RC-Corner PreRoute Cap Factor         : 1
+[08/20 22:54:50     15s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[08/20 22:54:50     15s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[08/20 22:54:50     15s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[08/20 22:54:50     15s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[08/20 22:54:50     15s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[08/20 22:54:50     15s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[08/20 22:54:50     15s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[08/20 22:54:50     15s] LayerId::1 widthSet size::4
+[08/20 22:54:50     15s] LayerId::2 widthSet size::4
+[08/20 22:54:50     15s] LayerId::3 widthSet size::4
+[08/20 22:54:50     15s] LayerId::4 widthSet size::4
+[08/20 22:54:50     15s] LayerId::5 widthSet size::4
+[08/20 22:54:50     15s] LayerId::6 widthSet size::4
+[08/20 22:54:50     15s] LayerId::7 widthSet size::4
+[08/20 22:54:50     15s] LayerId::8 widthSet size::4
+[08/20 22:54:50     15s] LayerId::9 widthSet size::4
+[08/20 22:54:50     15s] LayerId::10 widthSet size::3
+[08/20 22:54:50     15s] Initializing multi-corner capacitance tables ... 
+[08/20 22:54:50     16s] Initializing multi-corner resistance tables ...
+[08/20 22:54:50     16s] Start generating vias ...
+[08/20 22:54:50     16s] #Skip building auto via since it is not turned on.
+[08/20 22:54:50     16s] Via generation completed.
+[08/20 22:54:50     16s] % Begin Load power constraints ... (date=08/20 22:54:50, mem=757.0M)
+[08/20 22:54:50     16s] % End Load power constraints ... (date=08/20 22:54:50, total cpu=0:00:00.0, real=0:00:00.0, peak res=757.5M, current mem=757.5M)
+[08/20 22:54:50     16s] % Begin load AAE data ... (date=08/20 22:54:50, mem=757.5M)
+[08/20 22:54:51     16s] AAE DB initialization (MEM=902.516 CPU=0:00:00.2 REAL=0:00:00.0) 
+[08/20 22:54:51     16s] % End load AAE data ... (date=08/20 22:54:51, total cpu=0:00:00.4, real=0:00:01.0, peak res=764.2M, current mem=764.2M)
+[08/20 22:54:51     16s] Restoring CCOpt config...
+[08/20 22:54:51     16s] Creating Cell Server ...(0, 0, 0, 0)
+[08/20 22:54:51     16s] Summary for sequential cells identification: 
+[08/20 22:54:51     16s]   Identified SBFF number: 16
+[08/20 22:54:51     16s]   Identified MBFF number: 0
+[08/20 22:54:51     16s]   Identified SB Latch number: 0
+[08/20 22:54:51     16s]   Identified MB Latch number: 0
+[08/20 22:54:51     16s]   Not identified SBFF number: 0
+[08/20 22:54:51     16s]   Not identified MBFF number: 0
+[08/20 22:54:51     16s]   Not identified SB Latch number: 0
+[08/20 22:54:51     16s]   Not identified MB Latch number: 0
+[08/20 22:54:51     16s]   Number of sequential cells which are not FFs: 13
+[08/20 22:54:51     16s]  Visiting view : VIEW_TYP
+[08/20 22:54:51     16s]    : PowerDomain = none : Weighted F : unweighted  = 10.10 (1.000) with rcCorner = 0
+[08/20 22:54:51     16s]    : PowerDomain = none : Weighted F : unweighted  = 7.80 (1.000) with rcCorner = -1
+[08/20 22:54:51     16s]  Visiting view : VIEW_TYP
+[08/20 22:54:51     16s]    : PowerDomain = none : Weighted F : unweighted  = 10.10 (1.000) with rcCorner = 0
+[08/20 22:54:51     16s]    : PowerDomain = none : Weighted F : unweighted  = 7.80 (1.000) with rcCorner = -1
+[08/20 22:54:51     16s]  Setting StdDelay to 10.10
+[08/20 22:54:51     16s] Creating Cell Server, finished. 
+[08/20 22:54:51     16s] 
+[08/20 22:54:51     16s]   Extracting original clock gating for aes_clk...
+[08/20 22:54:51     16s]     clock_tree aes_clk contains 562 sinks and 0 clock gates.
+[08/20 22:54:51     16s]     Extraction for aes_clk complete.
+[08/20 22:54:51     16s]   Extracting original clock gating for aes_clk done.
+[08/20 22:54:51     16s]   The skew group aes_clk/FUNC was created. It contains 562 sinks and 1 sources.
+[08/20 22:54:51     16s]   The skew group aes_clk/FUNC was created. It contains 562 sinks and 1 sources.
+[08/20 22:54:51     16s] **WARN: (IMPCCOPT-2332):	The property adjacent_rows_legal is deprecated. It still works, but it may be removed in a future release.
+[08/20 22:54:51     16s] Restoring CCOpt config done.
+[08/20 22:54:51     16s] Deleting Cell Server ...
+[08/20 22:54:51     16s] Creating Cell Server ...(0, 1, 1, 1)
+[08/20 22:54:51     16s] Summary for sequential cells identification: 
+[08/20 22:54:51     16s]   Identified SBFF number: 16
+[08/20 22:54:51     16s]   Identified MBFF number: 0
+[08/20 22:54:51     16s]   Identified SB Latch number: 0
+[08/20 22:54:51     16s]   Identified MB Latch number: 0
+[08/20 22:54:51     16s]   Not identified SBFF number: 0
+[08/20 22:54:51     16s]   Not identified MBFF number: 0
+[08/20 22:54:51     16s]   Not identified SB Latch number: 0
+[08/20 22:54:51     16s]   Not identified MB Latch number: 0
+[08/20 22:54:51     16s]   Number of sequential cells which are not FFs: 13
+[08/20 22:54:51     16s] Total number of combinational cells: 100
+[08/20 22:54:51     16s] Total number of sequential cells: 29
+[08/20 22:54:51     16s] Total number of tristate cells: 6
+[08/20 22:54:51     16s] Total number of level shifter cells: 0
+[08/20 22:54:51     16s] Total number of power gating cells: 0
+[08/20 22:54:51     16s] Total number of isolation cells: 0
+[08/20 22:54:51     16s] Total number of power switch cells: 0
+[08/20 22:54:51     16s] Total number of pulse generator cells: 0
+[08/20 22:54:51     16s] Total number of always on buffers: 0
+[08/20 22:54:51     16s] Total number of retention cells: 0
+[08/20 22:54:51     16s] List of usable buffers: BUF_X1 BUF_X2 BUF_X4 BUF_X8 BUF_X16 BUF_X32 CLKBUF_X1 CLKBUF_X2 CLKBUF_X3
+[08/20 22:54:51     16s] Total number of usable buffers: 9
+[08/20 22:54:51     16s] List of unusable buffers:
+[08/20 22:54:51     16s] Total number of unusable buffers: 0
+[08/20 22:54:51     16s] List of usable inverters: INV_X1 INV_X2 INV_X4 INV_X8 INV_X16 INV_X32
+[08/20 22:54:51     16s] Total number of usable inverters: 6
+[08/20 22:54:51     16s] List of unusable inverters:
+[08/20 22:54:51     16s] Total number of unusable inverters: 0
+[08/20 22:54:51     16s] List of identified usable delay cells:
+[08/20 22:54:51     16s] Total number of identified usable delay cells: 0
+[08/20 22:54:51     16s] List of identified unusable delay cells:
+[08/20 22:54:51     16s] Total number of identified unusable delay cells: 0
+[08/20 22:54:51     16s] Creating Cell Server, finished. 
+[08/20 22:54:51     16s] 
+[08/20 22:54:51     16s] No delay cells were detected in the set of buffers. Buffers will be used to fix hold violations.
+[08/20 22:54:51     16s] Deleting Cell Server ...
+[08/20 22:54:51     16s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.10-p002_1. They will be removed in the next release. 
+[08/20 22:54:51     16s] timing_enable_default_delay_arc
+[08/20 22:54:51     16s] #% End load design ... (date=08/20 22:54:51, total cpu=0:00:02.4, real=0:00:03.0, peak res=769.4M, current mem=768.7M)
+[08/20 22:54:51     16s] 
+[08/20 22:54:51     16s] *** Summary of all messages that are not suppressed in this session:
+[08/20 22:54:51     16s] Severity  ID               Count  Summary                                  
+[08/20 22:54:51     16s] WARNING   IMPTS-124            2  Timing library description of pin '%s' i...
+[08/20 22:54:51     16s] WARNING   IMPVL-159            2  Pin '%s' of cell '%s' is defined in LEF ...
+[08/20 22:54:51     16s] WARNING   IMPCCOPT-2332        1  The property %s is deprecated. It still ...
+[08/20 22:54:51     16s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[08/20 22:54:51     16s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[08/20 22:54:51     16s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[08/20 22:54:51     16s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[08/20 22:54:51     16s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[08/20 22:54:51     16s] *** Message Summary: 27 warning(s), 2 error(s)
+[08/20 22:54:51     16s] 
+[08/20 22:54:51     16s] <CMD> setEcoMode -batchMode true -refinePlace false -updateTiming false -honorFixedNetWire false
+[08/20 22:54:51     16s] **WARN: (IMPOPT-6115):	ECO batchmode has been activated. Set setEcoMode -batchMode to false when done with ECO operations.
+[08/20 22:54:51     16s] Type 'man IMPOPT-6115' for more detail.
+[08/20 22:54:51     16s] <CMD> ecoAddRepeater -term FE_PHC963_00140/A -cell CLKBUF_X1 -loc {47.31 19.88} -name HOLD_FIX_CLKBUF_00140 -newNetName HOLD_FIX_CLKBUF_00140_NET
+[08/20 22:54:51     16s] #################################################################################
+[08/20 22:54:51     16s] # Design Stage: PostRoute
+[08/20 22:54:51     16s] # Design Name: aes_cipher_top
+[08/20 22:54:51     16s] # Design Mode: 45nm
+[08/20 22:54:51     16s] # Analysis Mode: MMMC OCV 
+[08/20 22:54:51     16s] # Parasitics Mode: No SPEF/RCDB
+[08/20 22:54:51     16s] # Signoff Settings: SI On 
+[08/20 22:54:51     16s] #################################################################################
+[08/20 22:54:51     16s] Start AAE Lib Loading. (MEM=1068.49)
+[08/20 22:54:51     16s] End AAE Lib Loading. (MEM=1078.03 CPU=0:00:00.0 Real=0:00:00.0)
+[08/20 22:54:51     16s] Add inst HOLD_FIX_CLKBUF_00140 (CLKBUF_X1) to drive load FE_PHC963_00140/A 
+[08/20 22:54:51     16s] <CMD> setEcoMode -batchMode false
+[08/20 22:54:51     16s] <CMD> refinePlace
+[08/20 22:54:51     16s] OPERPROF: Starting RefinePlace2 at level 1, MEM:1078.0M
+[08/20 22:54:51     16s] OPERPROF:   Starting RefinePlaceInit at level 2, MEM:1078.0M
+[08/20 22:54:51     16s] OPERPROF:     Starting DPlace-Init at level 3, MEM:1078.0M
+[08/20 22:54:51     16s] #spOpts: N=45 
+[08/20 22:54:51     16s] OPERPROF:       Starting spInitSiteArr at level 4, MEM:1078.0M
+[08/20 22:54:51     16s] OPERPROF:         Starting spiInitFpSiteArr at level 5, MEM:1078.0M
+[08/20 22:54:51     16s] Core basic site is FreePDK45_38x28_10R_NP_162NW_34O
+[08/20 22:54:51     16s] Use non-trimmed site array because memory saving is not enough.
+[08/20 22:54:51     16s] SiteArray: non-trimmed site array dimensions = 112 x 830
+[08/20 22:54:51     16s] SiteArray: use 458,752 bytes
+[08/20 22:54:51     16s] SiteArray: current memory after site array memory allocation 1078.5M
+[08/20 22:54:51     16s] SiteArray: FP blocked sites are writable
+[08/20 22:54:51     16s] Estimated cell power/ground rail width = 0.197 um
+[08/20 22:54:51     16s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[08/20 22:54:51     16s] OPERPROF:           Starting RoutingBlockageFromWireViaStBox at level 6, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:           Finished RoutingBlockageFromWireViaStBox at level 6, CPU:0.010, REAL:0.004, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:         Finished spiInitFpSiteArr at level 5, CPU:0.020, REAL:0.016, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:         Starting CMU at level 5, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:         Finished CMU at level 5, CPU:0.000, REAL:0.001, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:       Finished spInitSiteArr at level 4, CPU:0.020, REAL:0.021, MEM:1078.5M
+[08/20 22:54:51     16s] [CPU] DPlace-Init (cpu=0:00:00.0, real=0:00:00.0, mem=1078.5MB).
+[08/20 22:54:51     16s] OPERPROF:     Finished DPlace-Init at level 3, CPU:0.040, REAL:0.042, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:   Finished RefinePlaceInit at level 2, CPU:0.040, REAL:0.042, MEM:1078.5M
+[08/20 22:54:51     16s] GigaOpt Checkpoint: Intermediate DB Saving Point beforeRefinePlace.16390.1
+[08/20 22:54:51     16s] OPERPROF:   Starting RefinePlace at level 2, MEM:1078.5M
+[08/20 22:54:51     16s] *** Starting refinePlace (0:00:16.9 mem=1078.5M) ***
+[08/20 22:54:51     16s] Total net bbox length = 1.487e+05 (7.671e+04 7.197e+04) (ext = 9.117e+03)
+[08/20 22:54:51     16s] OPERPROF:     Starting CellHaloInit at level 3, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:     Finished CellHaloInit at level 3, CPU:0.000, REAL:0.001, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:     Starting CellHaloInit at level 3, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:     Finished CellHaloInit at level 3, CPU:0.000, REAL:0.001, MEM:1078.5M
+[08/20 22:54:51     16s] OPERPROF:     Starting RefinePlace2 at level 3, MEM:1078.5M
+[08/20 22:54:51     16s] Starting refinePlace ...
+[08/20 22:54:51     16s]   Spread Effort: high, post-route mode, useDDP on.
+[08/20 22:54:51     16s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=1078.5MB) @(0:00:16.9 - 0:00:16.9).
+[08/20 22:54:51     16s] Move report: preRPlace moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[08/20 22:54:51     16s] wireLenOptFixPriorityInst 562 inst fixed
+[08/20 22:54:51     16s] 
+[08/20 22:54:51     16s] Running Spiral with 1 thread in Normal Mode  fetchWidth=25 
+[08/20 22:54:51     17s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[08/20 22:54:51     17s] [CPU] RefinePlace/Legalization (cpu=0:00:00.1, real=0:00:00.0, mem=1078.5MB) @(0:00:16.9 - 0:00:17.1).
+[08/20 22:54:51     17s] Move report: Detail placement moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[08/20 22:54:51     17s] 	Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 1078.5MB
+[08/20 22:54:51     17s] Statistics of distance of Instance movement in refine placement:
+[08/20 22:54:51     17s]   maximum (X+Y) =         0.00 um
+[08/20 22:54:51     17s]   mean    (X+Y) =         0.00 um
+[08/20 22:54:51     17s] Summary Report:
+[08/20 22:54:51     17s] Instances move: 0 (out of 11753 movable)
+[08/20 22:54:51     17s] Instances flipped: 0
+[08/20 22:54:51     17s] Mean displacement: 0.00 um
+[08/20 22:54:51     17s] Max displacement: 0.00 um 
+[08/20 22:54:51     17s] Total instances moved : 0
+[08/20 22:54:51     17s] OPERPROF:     Finished RefinePlace2 at level 3, CPU:0.160, REAL:0.156, MEM:1078.5M
+[08/20 22:54:51     17s] Total net bbox length = 1.487e+05 (7.671e+04 7.197e+04) (ext = 9.117e+03)
+[08/20 22:54:51     17s] Runtime: CPU: 0:00:00.2 REAL: 0:00:00.0 MEM: 1078.5MB
+[08/20 22:54:51     17s] [CPU] RefinePlace/total (cpu=0:00:00.2, real=0:00:00.0, mem=1078.5MB) @(0:00:16.9 - 0:00:17.1).
+[08/20 22:54:51     17s] *** Finished refinePlace (0:00:17.1 mem=1078.5M) ***
+[08/20 22:54:51     17s] GigaOpt Checkpoint: Intermediate DB Saving Point afterRefinePlace.16390.1
+[08/20 22:54:51     17s] OPERPROF:   Finished RefinePlace at level 2, CPU:0.180, REAL:0.178, MEM:1078.5M
+[08/20 22:54:51     17s] OPERPROF: Finished RefinePlace2 at level 1, CPU:0.240, REAL:0.242, MEM:1078.0M
+[08/20 22:54:51     17s] <CMD> ecoRoute
+[08/20 22:54:51     17s] #% Begin globalDetailRoute (date=08/20 22:54:51, mem=863.0M)
+[08/20 22:54:51     17s] 
+[08/20 22:54:51     17s] globalDetailRoute
+[08/20 22:54:51     17s] 
+[08/20 22:54:51     17s] #WARNING (NRIF-78) The option routeWithEco combined with routeWithTimingDriven is not recommended due to possible high memory usage, increased run-time, and increased routing pattern pertubations. Please use with caution.
+[08/20 22:54:51     17s] #setNanoRouteMode -droutePostRouteSpreadWire "auto"
+[08/20 22:54:51     17s] #setNanoRouteMode -routeStrictlyHonorNonDefaultRule "false"
+[08/20 22:54:51     17s] #setNanoRouteMode -routeWithEco true
+[08/20 22:54:51     17s] #setNanoRouteMode -routeWithSiDriven false
+[08/20 22:54:51     17s] #setNanoRouteMode -routeWithTimingDriven true
+[08/20 22:54:51     17s] #Start globalDetailRoute on Thu Aug 20 22:54:51 2026
+[08/20 22:54:51     17s] #
+[08/20 22:54:51     17s] #WARNING (NRDB-733) PIN Y in CELL_VIEW LOGIC1_X1 does not have physical port.
+[08/20 22:54:51     17s] #WARNING (NRDB-733) PIN Y in CELL_VIEW LOGIC0_X1 does not have physical port.
+[08/20 22:54:51     17s] LayerId::1 widthSet size::4
+[08/20 22:54:51     17s] LayerId::2 widthSet size::4
+[08/20 22:54:51     17s] LayerId::3 widthSet size::4
+[08/20 22:54:51     17s] LayerId::4 widthSet size::4
+[08/20 22:54:51     17s] LayerId::5 widthSet size::4
+[08/20 22:54:51     17s] LayerId::6 widthSet size::4
+[08/20 22:54:51     17s] LayerId::7 widthSet size::4
+[08/20 22:54:51     17s] LayerId::8 widthSet size::4
+[08/20 22:54:51     17s] LayerId::9 widthSet size::4
+[08/20 22:54:51     17s] LayerId::10 widthSet size::3
+[08/20 22:54:51     17s] Initializing multi-corner capacitance tables ... 
+[08/20 22:54:52     17s] Initializing multi-corner resistance tables ...
+[08/20 22:54:52     17s] ### Net info: total nets: 12626
+[08/20 22:54:52     17s] ### Net info: dirty nets: 1
+[08/20 22:54:52     17s] ### Net info: marked as disconnected nets: 0
+[08/20 22:54:52     17s] #num needed restored net=0
+[08/20 22:54:52     17s] #need_extraction net=0 (total=12626)
+[08/20 22:54:52     17s] ### Net info: fully routed nets: 12036
+[08/20 22:54:52     17s] ### Net info: trivial (< 2 pins) nets: 590
+[08/20 22:54:52     17s] ### Net info: unrouted nets: 0
+[08/20 22:54:52     17s] ### Net info: re-extraction nets: 0
+[08/20 22:54:52     17s] ### Net info: ignored nets: 0
+[08/20 22:54:52     17s] ### Net info: skip routing nets: 0
+[08/20 22:54:52     17s] #Processed 1 dirty instance, 1 dirty term, 0 dirty fterms, 0 dirty pgterms, 0 misc dirty regions, 0 same cell-size swaps
+[08/20 22:54:52     17s] #(1 inst marked dirty, reset pre-exisiting dirty flag on 1 inst, 4 nets marked need extraction)
+[08/20 22:54:52     17s] #NanoRoute Version 19.10-p002_1 NR190418-1643/19_10-UB
+[08/20 22:54:52     17s] #RTESIG:78da8d523d8b023110b5f6570cd162855367b231b9b4c2b5a788da2e5156392e1849b2c5
+[08/20 22:54:52     17s] #       fdfb0b0a56cb8ee942debcafc9647afcda8120bb209cdf116543f0bd238b8a3ee7a455bd
+[08/20 22:54:52     17s] #       24db94a7c35a8c27d3cd765f4b10aecb01e01e526ececefb933bff0aa8528e3fb7eb0774
+[08/20 22:54:52     17s] #       a98d90da9ccb6df61c5a21e4d8b5509d42f0fd08c9210c71089235d0021f07aa8b0f2ef7
+[08/20 22:54:52     17s] #       6b29f5ccc09836fa05cb6dbcb9f8d76fcc225c9c4f83d64a9fbc7dd2405816c10528412d
+[08/20 22:54:52     17s] #       2f294ba73cc8bec1a434bb9df2552c8807d370aba4ad66c90c2ade9541fd0ec80ca88dfe
+[08/20 22:54:52     17s] #       01d121e96b
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Skip comparing routing design signature in db-snapshot flow
+[08/20 22:54:52     17s] #RTESIG:78da8d523d8b023110b5f6570cd162855367b231b9b4c2b5a788da2e5156392e1849b2c5
+[08/20 22:54:52     17s] #       fdfb0b0a56cb8ee942debcafc9647afcda8120bb209cdf116543f0bd238b8a3ee7a455bd
+[08/20 22:54:52     17s] #       24db94a7c35a8c27d3cd765f4b10aecb01e01e526ececefb933bff0aa8528e3fb7eb0774
+[08/20 22:54:52     17s] #       a98d90da9ccb6df61c5a21e4d8b5509d42f0fd08c9210c71089235d0021f07aa8b0f2ef7
+[08/20 22:54:52     17s] #       6b29f5ccc09836fa05cb6dbcb9f8d76fcc225c9c4f83d64a9fbc7dd2405816c10528412d
+[08/20 22:54:52     17s] #       2f294ba73cc8bec1a434bb9df2552c8807d370aba4ad66c90c2ade9541fd0ec80ca88dfe
+[08/20 22:54:52     17s] #       01d121e96b
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Start routing data preparation on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Minimum voltage of a net in the design = 0.000.
+[08/20 22:54:52     17s] #Maximum voltage of a net in the design = 1.100.
+[08/20 22:54:52     17s] #Voltage range [0.000 - 1.100] has 12624 nets.
+[08/20 22:54:52     17s] #Voltage range [1.100 - 1.100] has 1 net.
+[08/20 22:54:52     17s] #Voltage range [0.000 - 0.000] has 1 net.
+[08/20 22:54:52     17s] #Restoring pin access data from file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/hold_delete_repeaters.enc.dat/aes_cipher_top.apa ...
+[08/20 22:54:52     17s] #Done restoring pin access data
+[08/20 22:54:52     17s] # metal1       H   Track-Pitch = 0.14000    Line-2-Via Pitch = 0.13500
+[08/20 22:54:52     17s] # metal2       V   Track-Pitch = 0.19000    Line-2-Via Pitch = 0.14000
+[08/20 22:54:52     17s] # metal3       H   Track-Pitch = 0.14000    Line-2-Via Pitch = 0.14000
+[08/20 22:54:52     17s] # metal4       V   Track-Pitch = 0.28000    Line-2-Via Pitch = 0.28000
+[08/20 22:54:52     17s] # metal5       H   Track-Pitch = 0.28000    Line-2-Via Pitch = 0.28000
+[08/20 22:54:52     17s] # metal6       V   Track-Pitch = 0.28000    Line-2-Via Pitch = 0.28000
+[08/20 22:54:52     17s] # metal7       H   Track-Pitch = 0.84000    Line-2-Via Pitch = 0.80000
+[08/20 22:54:52     17s] # metal8       V   Track-Pitch = 0.84000    Line-2-Via Pitch = 0.80000
+[08/20 22:54:52     17s] # metal9       H   Track-Pitch = 1.60000    Line-2-Via Pitch = 1.60000
+[08/20 22:54:52     17s] # metal10      V   Track-Pitch = 1.68000    Line-2-Via Pitch = 1.60000
+[08/20 22:54:52     17s] #Regenerating Ggrids automatically.
+[08/20 22:54:52     17s] #Auto generating G-grids with size=15 tracks, using layer metal3's pitch = 0.14000.
+[08/20 22:54:52     17s] #Using automatically generated G-grids.
+[08/20 22:54:52     17s] #Done routing data preparation.
+[08/20 22:54:52     17s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 897.61 (MB), peak = 898.02 (MB)
+[08/20 22:54:52     17s] #Merging special wires: starts on Thu Aug 20 22:54:52 2026 with memory = 898.29 (MB), peak = 898.29 (MB)
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Merging special wires: cpu:00:00:00, real:00:00:00, mem:898.4 MB, peak:898.4 MB
+[08/20 22:54:52     17s] #WARNING (NRDB-1005) Cannot establish connection to PIN Z at ( 47.78500 20.57500 ) on metal1 for NET HOLD_FIX_CLKBUF_00140_NET. The NET is considered partially routed. Visually verify wiring at the specified location as the wire/via origin may not touch the PIN. This NET will be rerouted with same or different wiring.
+[08/20 22:54:52     17s] #WARNING (NRDB-1005) Cannot establish connection to PIN A at ( 47.44500 20.49000 ) on metal1 for NET _00140_. The NET is considered partially routed. Visually verify wiring at the specified location as the wire/via origin may not touch the PIN. This NET will be rerouted with same or different wiring.
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Connectivity extraction summary:
+[08/20 22:54:52     17s] #2 routed nets are extracted.
+[08/20 22:54:52     17s] #    2 (0.02%) extracted nets are partially routed.
+[08/20 22:54:52     17s] #12034 routed net(s) are imported.
+[08/20 22:54:52     17s] #590 nets are fixed|skipped|trivial (not extracted).
+[08/20 22:54:52     17s] #Total number of nets = 12626.
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Finished routing data preparation on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Cpu time = 00:00:00
+[08/20 22:54:52     17s] #Elapsed time = 00:00:00
+[08/20 22:54:52     17s] #Increased memory = 10.30 (MB)
+[08/20 22:54:52     17s] #Total memory = 898.39 (MB)
+[08/20 22:54:52     17s] #Peak memory = 898.59 (MB)
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Start global routing on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Start global routing initialization on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Number of eco nets is 2
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] #Start global routing data preparation on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] ### build_merged_routing_blockage_rect_list starts on Thu Aug 20 22:54:52 2026 with memory = 898.89 (MB), peak = 898.89 (MB)
+[08/20 22:54:52     17s] ### build_merged_routing_blockage_rect_list cpu:00:00:00, real:00:00:00, mem:898.9 MB, peak:898.9 MB
+[08/20 22:54:52     17s] #Start routing resource analysis on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     17s] #
+[08/20 22:54:52     17s] ### init_is_bin_blocked starts on Thu Aug 20 22:54:52 2026 with memory = 898.89 (MB), peak = 898.89 (MB)
+[08/20 22:54:52     17s] ### init_is_bin_blocked cpu:00:00:00, real:00:00:00, mem:898.9 MB, peak:898.9 MB
+[08/20 22:54:52     17s] ### PDHT_Row_Thread::compute_flow_cap starts on Thu Aug 20 22:54:52 2026 with memory = 900.45 (MB), peak = 900.45 (MB)
+[08/20 22:54:52     18s] ### PDHT_Row_Thread::compute_flow_cap cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### adjust_flow_cap starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### adjust_flow_cap cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### adjust_partial_route_blockage starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### adjust_partial_route_blockage cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### set_via_blocked starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### set_via_blocked cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### copy_flow starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### copy_flow cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] #Routing resource analysis is done on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] ### report_flow_cap starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] #  Resource Analysis:
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #               Routing  #Avail      #Track     #Total     %Gcell
+[08/20 22:54:52     18s] #  Layer      Direction   Track     Blocked      Gcell    Blocked
+[08/20 22:54:52     18s] #  --------------------------------------------------------------
+[08/20 22:54:52     18s] #  metal1         H        1264           0        7140    64.17%
+[08/20 22:54:52     18s] #  metal2         V         936           0        7140     0.00%
+[08/20 22:54:52     18s] #  metal3         H        1264           0        7140     0.00%
+[08/20 22:54:52     18s] #  metal4         V         634           0        7140     0.00%
+[08/20 22:54:52     18s] #  metal5         H         631           0        7140     0.00%
+[08/20 22:54:52     18s] #  metal6         V         634           0        7140     0.00%
+[08/20 22:54:52     18s] #  metal7         H         200          10        7140     9.52%
+[08/20 22:54:52     18s] #  metal8         V         178          33        7140     9.55%
+[08/20 22:54:52     18s] #  metal9         H          83           1        7140     1.89%
+[08/20 22:54:52     18s] #  metal10        V          85           0        7140     0.00%
+[08/20 22:54:52     18s] #  --------------------------------------------------------------
+[08/20 22:54:52     18s] #  Total                   5910       2.11%       71400     8.51%
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #  20 nets (0.16%) with 1 preferred extra spacing.
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] ### report_flow_cap cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### analyze_m2_tracks starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### analyze_m2_tracks cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### report_initial_resource starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### report_initial_resource cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### mark_pg_pins_accessibility starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### mark_pg_pins_accessibility cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] ### set_net_region starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### set_net_region cpu:00:00:00, real:00:00:00, mem:900.6 MB, peak:900.6 MB
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #Global routing data preparation is done on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] ### prepare_level starts on Thu Aug 20 22:54:52 2026 with memory = 900.63 (MB), peak = 900.63 (MB)
+[08/20 22:54:52     18s] ### init level 1 starts on Thu Aug 20 22:54:52 2026 with memory = 900.75 (MB), peak = 900.75 (MB)
+[08/20 22:54:52     18s] ### init level 1 cpu:00:00:00, real:00:00:00, mem:900.8 MB, peak:900.8 MB
+[08/20 22:54:52     18s] ### prepare_level_flow starts on Thu Aug 20 22:54:52 2026 with memory = 900.82 (MB), peak = 900.82 (MB)
+[08/20 22:54:52     18s] ### prepare_level_flow cpu:00:00:00, real:00:00:00, mem:900.8 MB, peak:900.8 MB
+[08/20 22:54:52     18s] ### prepare_level cpu:00:00:00, real:00:00:00, mem:900.8 MB, peak:900.8 MB
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #Global routing initialization is done on Thu Aug 20 22:54:52 2026
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 900.82 (MB), peak = 900.82 (MB)
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #start global routing iteration 1...
+[08/20 22:54:52     18s] ### init_flow_edge starts on Thu Aug 20 22:54:52 2026 with memory = 900.82 (MB), peak = 900.82 (MB)
+[08/20 22:54:52     18s] ### init_flow_edge cpu:00:00:00, real:00:00:00, mem:903.8 MB, peak:903.8 MB
+[08/20 22:54:52     18s] ### measure_qor starts on Thu Aug 20 22:54:52 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:52     18s] ### measure_congestion starts on Thu Aug 20 22:54:52 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:52     18s] ### measure_congestion cpu:00:00:00, real:00:00:00, mem:904.7 MB, peak:904.7 MB
+[08/20 22:54:52     18s] ### measure_qor cpu:00:00:00, real:00:00:00, mem:904.7 MB, peak:904.7 MB
+[08/20 22:54:52     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:52     18s] #
+[08/20 22:54:52     18s] #start global routing iteration 2...
+[08/20 22:54:53     18s] ### measure_qor starts on Thu Aug 20 22:54:53 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] ### measure_congestion starts on Thu Aug 20 22:54:53 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] ### measure_congestion cpu:00:00:00, real:00:00:00, mem:904.7 MB, peak:904.7 MB
+[08/20 22:54:53     18s] ### measure_qor cpu:00:00:00, real:00:00:00, mem:904.7 MB, peak:904.7 MB
+[08/20 22:54:53     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] ### route_end starts on Thu Aug 20 22:54:53 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Total number of trivial nets (e.g. < 2 pins) = 590 (skipped).
+[08/20 22:54:53     18s] #Total number of routable nets = 12036.
+[08/20 22:54:53     18s] #Total number of nets in the design = 12626.
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #2 routable nets have only global wires.
+[08/20 22:54:53     18s] #12034 routable nets have only detail routed wires.
+[08/20 22:54:53     18s] #20 detail routed (routable) nets have been constrained (e.g. have preferred extra spacing, require shielding etc.)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Routed nets constraints summary:
+[08/20 22:54:53     18s] #-----------------------------
+[08/20 22:54:53     18s] #        Rules   Unconstrained  
+[08/20 22:54:53     18s] #-----------------------------
+[08/20 22:54:53     18s] #      Default               2  
+[08/20 22:54:53     18s] #-----------------------------
+[08/20 22:54:53     18s] #        Total               2  
+[08/20 22:54:53     18s] #-----------------------------
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Routing constraints summary of the whole design:
+[08/20 22:54:53     18s] #------------------------------------------------
+[08/20 22:54:53     18s] #        Rules   Pref Extra Space   Unconstrained  
+[08/20 22:54:53     18s] #------------------------------------------------
+[08/20 22:54:53     18s] #      Default                 20           12016  
+[08/20 22:54:53     18s] #------------------------------------------------
+[08/20 22:54:53     18s] #        Total                 20           12016  
+[08/20 22:54:53     18s] #------------------------------------------------
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] ### cal_base_flow starts on Thu Aug 20 22:54:53 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] ### init_flow_edge starts on Thu Aug 20 22:54:53 2026 with memory = 904.66 (MB), peak = 904.66 (MB)
+[08/20 22:54:53     18s] ### init_flow_edge cpu:00:00:00, real:00:00:00, mem:905.0 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### cal_flow starts on Thu Aug 20 22:54:53 2026 with memory = 905.18 (MB), peak = 905.18 (MB)
+[08/20 22:54:53     18s] ### cal_flow cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### cal_base_flow cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### report_overcon starts on Thu Aug 20 22:54:53 2026 with memory = 905.18 (MB), peak = 905.18 (MB)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #  Congestion Analysis: (blocked Gcells are excluded)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #                 OverCon          
+[08/20 22:54:53     18s] #                  #Gcell    %Gcell
+[08/20 22:54:53     18s] #     Layer           (1)   OverCon
+[08/20 22:54:53     18s] #  --------------------------------
+[08/20 22:54:53     18s] #  metal1        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal2        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal3        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal4        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal5        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal6        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal7        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal8        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal9        0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  metal10       0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #  --------------------------------
+[08/20 22:54:53     18s] #     Total      0(0.00%)   (0.00%)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 1
+[08/20 22:54:53     18s] #  Overflow after GR: 0.00% H + 0.00% V
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] ### report_overcon cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### cal_base_flow starts on Thu Aug 20 22:54:53 2026 with memory = 905.18 (MB), peak = 905.18 (MB)
+[08/20 22:54:53     18s] ### init_flow_edge starts on Thu Aug 20 22:54:53 2026 with memory = 905.18 (MB), peak = 905.18 (MB)
+[08/20 22:54:53     18s] ### init_flow_edge cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### cal_flow starts on Thu Aug 20 22:54:53 2026 with memory = 905.20 (MB), peak = 905.20 (MB)
+[08/20 22:54:53     18s] ### cal_flow cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### cal_base_flow cpu:00:00:00, real:00:00:00, mem:905.2 MB, peak:905.2 MB
+[08/20 22:54:53     18s] ### export_cong_map starts on Thu Aug 20 22:54:53 2026 with memory = 905.20 (MB), peak = 905.20 (MB)
+[08/20 22:54:53     18s] ### PDZT_Export::export_cong_map starts on Thu Aug 20 22:54:53 2026 with memory = 905.36 (MB), peak = 905.36 (MB)
+[08/20 22:54:53     18s] ### PDZT_Export::export_cong_map cpu:00:00:00, real:00:00:00, mem:905.4 MB, peak:905.4 MB
+[08/20 22:54:53     18s] ### export_cong_map cpu:00:00:00, real:00:00:00, mem:905.4 MB, peak:905.4 MB
+[08/20 22:54:53     18s] ### import_cong_map starts on Thu Aug 20 22:54:53 2026 with memory = 905.36 (MB), peak = 905.36 (MB)
+[08/20 22:54:53     18s] ### import_cong_map cpu:00:00:00, real:00:00:00, mem:905.4 MB, peak:905.4 MB
+[08/20 22:54:53     18s] ### update starts on Thu Aug 20 22:54:53 2026 with memory = 905.36 (MB), peak = 905.36 (MB)
+[08/20 22:54:53     18s] #Complete Global Routing.
+[08/20 22:54:53     18s] #Total number of nets with non-default rule or having extra spacing = 20
+[08/20 22:54:53     18s] #Total wire length = 179325 um.
+[08/20 22:54:53     18s] #Total half perimeter of net bounding box = 158402 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal1 = 5491 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal2 = 47212 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal3 = 57743 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal4 = 24470 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal5 = 23811 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal6 = 15780 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal7 = 1509 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal8 = 1663 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal9 = 1647 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal10 = 0 um.
+[08/20 22:54:53     18s] #Total number of vias = 91175
+[08/20 22:54:53     18s] #Up-Via Summary (total 91175):
+[08/20 22:54:53     18s] #           
+[08/20 22:54:53     18s] #-----------------------
+[08/20 22:54:53     18s] # metal1          42200
+[08/20 22:54:53     18s] # metal2          32434
+[08/20 22:54:53     18s] # metal3          10518
+[08/20 22:54:53     18s] # metal4           3588
+[08/20 22:54:53     18s] # metal5           1886
+[08/20 22:54:53     18s] # metal6            284
+[08/20 22:54:53     18s] # metal7            171
+[08/20 22:54:53     18s] # metal8             94
+[08/20 22:54:53     18s] #-----------------------
+[08/20 22:54:53     18s] #                 91175 
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] ### update cpu:00:00:00, real:00:00:00, mem:905.8 MB, peak:905.8 MB
+[08/20 22:54:53     18s] ### report_overcon starts on Thu Aug 20 22:54:53 2026 with memory = 905.78 (MB), peak = 905.78 (MB)
+[08/20 22:54:53     18s] ### report_overcon cpu:00:00:00, real:00:00:00, mem:905.8 MB, peak:905.8 MB
+[08/20 22:54:53     18s] ### report_overcon starts on Thu Aug 20 22:54:53 2026 with memory = 905.78 (MB), peak = 905.78 (MB)
+[08/20 22:54:53     18s] #Max overcon = 0 track.
+[08/20 22:54:53     18s] #Total overcon = 0.00%.
+[08/20 22:54:53     18s] #Worst layer Gcell overcon rate = 0.00%.
+[08/20 22:54:53     18s] ### report_overcon cpu:00:00:00, real:00:00:00, mem:905.8 MB, peak:905.8 MB
+[08/20 22:54:53     18s] ### route_end cpu:00:00:00, real:00:00:00, mem:905.8 MB, peak:905.8 MB
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Global routing statistics:
+[08/20 22:54:53     18s] #Cpu time = 00:00:00
+[08/20 22:54:53     18s] #Elapsed time = 00:00:00
+[08/20 22:54:53     18s] #Increased memory = 7.18 (MB)
+[08/20 22:54:53     18s] #Total memory = 905.78 (MB)
+[08/20 22:54:53     18s] #Peak memory = 905.78 (MB)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Finished global routing on Thu Aug 20 22:54:53 2026
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 904.23 (MB), peak = 905.84 (MB)
+[08/20 22:54:53     18s] #Start Track Assignment.
+[08/20 22:54:53     18s] #Done with 0 horizontal wires in 1 hboxes and 0 vertical wires in 1 hboxes.
+[08/20 22:54:53     18s] #Done with 0 horizontal wires in 1 hboxes and 0 vertical wires in 1 hboxes.
+[08/20 22:54:53     18s] #Complete Track Assignment.
+[08/20 22:54:53     18s] #Total number of nets with non-default rule or having extra spacing = 20
+[08/20 22:54:53     18s] #Total wire length = 179327 um.
+[08/20 22:54:53     18s] #Total half perimeter of net bounding box = 158402 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal1 = 5491 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal2 = 47213 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal3 = 57743 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal4 = 24470 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal5 = 23811 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal6 = 15780 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal7 = 1509 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal8 = 1663 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal9 = 1647 um.
+[08/20 22:54:53     18s] #Total wire length on LAYER metal10 = 0 um.
+[08/20 22:54:53     18s] #Total number of vias = 91175
+[08/20 22:54:53     18s] #Up-Via Summary (total 91175):
+[08/20 22:54:53     18s] #           
+[08/20 22:54:53     18s] #-----------------------
+[08/20 22:54:53     18s] # metal1          42200
+[08/20 22:54:53     18s] # metal2          32434
+[08/20 22:54:53     18s] # metal3          10518
+[08/20 22:54:53     18s] # metal4           3588
+[08/20 22:54:53     18s] # metal5           1886
+[08/20 22:54:53     18s] # metal6            284
+[08/20 22:54:53     18s] # metal7            171
+[08/20 22:54:53     18s] # metal8             94
+[08/20 22:54:53     18s] #-----------------------
+[08/20 22:54:53     18s] #                 91175 
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 905.27 (MB), peak = 905.84 (MB)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #number of short segments in preferred routing layers
+[08/20 22:54:53     18s] #	
+[08/20 22:54:53     18s] #	
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Routing data preparation, pin analysis, global routing and track assignment statistics:
+[08/20 22:54:53     18s] #Cpu time = 00:00:01
+[08/20 22:54:53     18s] #Elapsed time = 00:00:01
+[08/20 22:54:53     18s] #Increased memory = 17.68 (MB)
+[08/20 22:54:53     18s] #Total memory = 905.43 (MB)
+[08/20 22:54:53     18s] #Peak memory = 905.84 (MB)
+[08/20 22:54:53     18s] ### max drc and si pitch = 5600 ( 2.80000 um) MT-safe pitch = 3360 ( 1.68000 um) patch pitch = 7680 ( 3.84000 um)
+[08/20 22:54:53     18s] #
+[08/20 22:54:53     18s] #Start Detail Routing..
+[08/20 22:54:53     18s] #start initial detail routing ...
+[08/20 22:54:53     18s] ### Design has 0 dirty nets, 5 dirty-areas)
+[08/20 22:54:53     18s] # ECO: 0.0% of the total area was rechecked for DRC, and 0.5% required routing.
+[08/20 22:54:53     18s] #   number of violations = 0
+[08/20 22:54:53     18s] #1 out of 12780 instances (0.0%) need to be verified(marked ipoed), dirty area = 0.0%.
+[08/20 22:54:53     18s] #0.0% of the total area is being checked for drcs
+[08/20 22:54:53     18s] #0.0% of the total area was checked
+[08/20 22:54:53     18s] #   number of violations = 0
+[08/20 22:54:53     18s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 918.05 (MB), peak = 918.94 (MB)
+[08/20 22:54:53     19s] #Complete Detail Routing.
+[08/20 22:54:53     19s] #Total number of nets with non-default rule or having extra spacing = 20
+[08/20 22:54:53     19s] #Total wire length = 179326 um.
+[08/20 22:54:53     19s] #Total half perimeter of net bounding box = 158402 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal1 = 5491 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal2 = 47212 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal3 = 57744 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal4 = 24470 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal5 = 23811 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal6 = 15780 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal7 = 1509 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal8 = 1663 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal9 = 1647 um.
+[08/20 22:54:53     19s] #Total wire length on LAYER metal10 = 0 um.
+[08/20 22:54:53     19s] #Total number of vias = 91178
+[08/20 22:54:53     19s] #Up-Via Summary (total 91178):
+[08/20 22:54:53     19s] #           
+[08/20 22:54:53     19s] #-----------------------
+[08/20 22:54:53     19s] # metal1          42201
+[08/20 22:54:53     19s] # metal2          32436
+[08/20 22:54:53     19s] # metal3          10518
+[08/20 22:54:53     19s] # metal4           3588
+[08/20 22:54:53     19s] # metal5           1886
+[08/20 22:54:53     19s] # metal6            284
+[08/20 22:54:53     19s] # metal7            171
+[08/20 22:54:53     19s] # metal8             94
+[08/20 22:54:53     19s] #-----------------------
+[08/20 22:54:53     19s] #                 91178 
+[08/20 22:54:53     19s] #
+[08/20 22:54:53     19s] #Total number of DRC violations = 0
+[08/20 22:54:53     19s] #Cpu time = 00:00:00
+[08/20 22:54:53     19s] #Elapsed time = 00:00:00
+[08/20 22:54:53     19s] #Increased memory = 1.25 (MB)
+[08/20 22:54:53     19s] #Total memory = 906.69 (MB)
+[08/20 22:54:53     19s] #Peak memory = 918.94 (MB)
+[08/20 22:54:53     19s] #detailRoute Statistics:
+[08/20 22:54:53     19s] #Cpu time = 00:00:00
+[08/20 22:54:53     19s] #Elapsed time = 00:00:00
+[08/20 22:54:53     19s] #Increased memory = 1.25 (MB)
+[08/20 22:54:53     19s] #Total memory = 906.69 (MB)
+[08/20 22:54:53     19s] #Peak memory = 918.94 (MB)
+[08/20 22:54:53     19s] #Skip updating routing design signature in db-snapshot flow
+[08/20 22:54:54     19s] #
+[08/20 22:54:54     19s] #globalDetailRoute statistics:
+[08/20 22:54:54     19s] #Cpu time = 00:00:02
+[08/20 22:54:54     19s] #Elapsed time = 00:00:02
+[08/20 22:54:54     19s] #Increased memory = 36.03 (MB)
+[08/20 22:54:54     19s] #Total memory = 899.02 (MB)
+[08/20 22:54:54     19s] #Peak memory = 918.94 (MB)
+[08/20 22:54:54     19s] #Number of warnings = 5
+[08/20 22:54:54     19s] #Total number of warnings = 5
+[08/20 22:54:54     19s] #Number of fails = 0
+[08/20 22:54:54     19s] #Total number of fails = 0
+[08/20 22:54:54     19s] #Complete globalDetailRoute on Thu Aug 20 22:54:54 2026
+[08/20 22:54:54     19s] #
+[08/20 22:54:54     19s] #% End globalDetailRoute (date=08/20 22:54:54, total cpu=0:00:02.2, real=0:00:03.0, peak res=918.9M, current mem=899.2M)
+[08/20 22:54:54     19s] ### 
+[08/20 22:54:54     19s] ###   Scalability Statistics
+[08/20 22:54:54     19s] ### 
+[08/20 22:54:54     19s] ### --------------------------------+----------------+----------------+----------------+
+[08/20 22:54:54     19s] ###   ecoRoute                      |        cpu time|    elapsed time|     scalability|
+[08/20 22:54:54     19s] ### --------------------------------+----------------+----------------+----------------+
+[08/20 22:54:54     19s] ###   Pre Callback                  |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Post Callback                 |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Timing Data Generation        |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   DB Import                     |        00:00:01|        00:00:01|             1.0|
+[08/20 22:54:54     19s] ###   DB Export                     |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Cell Pin Access               |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Special Wire Merging          |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Data Preparation              |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Global Routing                |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Track Assignment              |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Detail Routing                |        00:00:00|        00:00:00|             1.0|
+[08/20 22:54:54     19s] ###   Entire Command                |        00:00:02|        00:00:02|             1.0|
+[08/20 22:54:54     19s] ### --------------------------------+----------------+----------------+----------------+
+[08/20 22:54:54     19s] ### 
+[08/20 22:54:54     19s] <CMD> extractRC
+[08/20 22:54:54     19s] Extraction called for design 'aes_cipher_top' of instances=12780 and nets=12626 using extraction engine 'postRoute' at effort level 'low' .
+[08/20 22:54:54     19s] PostRoute (effortLevel low) RC Extraction called for design aes_cipher_top.
+[08/20 22:54:54     19s] RC Extraction called in multi-corner(1) mode.
+[08/20 22:54:54     19s] Process corner(s) are loaded.
+[08/20 22:54:54     19s]  Corner: RC_TYP
+[08/20 22:54:54     19s] extractDetailRC Option : -outfile /tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d  -extended
+[08/20 22:54:54     19s] RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+[08/20 22:54:54     19s]       RC Corner Indexes            0   
+[08/20 22:54:54     19s] Capacitance Scaling Factor   : 1.00000 
+[08/20 22:54:54     19s] Coupling Cap. Scaling Factor : 1.00000 
+[08/20 22:54:54     19s] Resistance Scaling Factor    : 1.00000 
+[08/20 22:54:54     19s] Clock Cap. Scaling Factor    : 1.00000 
+[08/20 22:54:54     19s] Clock Res. Scaling Factor    : 1.00000 
+[08/20 22:54:54     19s] Shrink Factor                : 1.00000
+[08/20 22:54:54     19s] LayerId::1 widthSet size::4
+[08/20 22:54:54     19s] LayerId::2 widthSet size::4
+[08/20 22:54:54     19s] LayerId::3 widthSet size::4
+[08/20 22:54:54     19s] LayerId::4 widthSet size::4
+[08/20 22:54:54     19s] LayerId::5 widthSet size::4
+[08/20 22:54:54     19s] LayerId::6 widthSet size::4
+[08/20 22:54:54     19s] LayerId::7 widthSet size::4
+[08/20 22:54:54     19s] LayerId::8 widthSet size::4
+[08/20 22:54:54     19s] LayerId::9 widthSet size::4
+[08/20 22:54:54     19s] LayerId::10 widthSet size::3
+[08/20 22:54:54     19s] Initializing multi-corner capacitance tables ... 
+[08/20 22:54:54     19s] Initializing multi-corner resistance tables ...
+[08/20 22:54:54     19s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1048.1M)
+[08/20 22:54:54     19s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for storing RC.
+[08/20 22:54:54     19s] Extracted 10.0013% (CPU Time= 0:00:00.3  MEM= 1138.5M)
+[08/20 22:54:54     19s] Extracted 20.0013% (CPU Time= 0:00:00.4  MEM= 1140.5M)
+[08/20 22:54:54     19s] Extracted 30.0012% (CPU Time= 0:00:00.5  MEM= 1142.5M)
+[08/20 22:54:54     19s] Extracted 40.0011% (CPU Time= 0:00:00.6  MEM= 1146.5M)
+[08/20 22:54:54     19s] Extracted 50.0011% (CPU Time= 0:00:00.6  MEM= 1150.5M)
+[08/20 22:54:54     20s] Extracted 60.001% (CPU Time= 0:00:00.7  MEM= 1154.5M)
+[08/20 22:54:54     20s] Extracted 70.0009% (CPU Time= 0:00:00.8  MEM= 1156.5M)
+[08/20 22:54:54     20s] Extracted 80.0009% (CPU Time= 0:00:00.9  MEM= 1158.5M)
+[08/20 22:54:55     20s] Extracted 90.0008% (CPU Time= 0:00:01.0  MEM= 1163.5M)
+[08/20 22:54:55     20s] Extracted 100% (CPU Time= 0:00:01.4  MEM= 1165.5M)
+[08/20 22:54:55     20s] Number of Extracted Resistors     : 232259
+[08/20 22:54:55     20s] Number of Extracted Ground Cap.   : 243114
+[08/20 22:54:55     20s] Number of Extracted Coupling Cap. : 801454
+[08/20 22:54:55     20s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1149.453M)
+[08/20 22:54:55     20s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[08/20 22:54:55     20s]  Corner: RC_TYP
+[08/20 22:54:55     20s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1149.5M)
+[08/20 22:54:55     20s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb_Filter.rcdb.d' for storing RC.
+[08/20 22:54:55     20s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 12036 access done (mem: 1149.453M)
+[08/20 22:54:55     20s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1149.453M)
+[08/20 22:54:55     20s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1149.453M)
+[08/20 22:54:55     20s] processing rcdb (/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d) for hinst (top) of cell (aes_cipher_top);
+[08/20 22:54:55     21s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 0 access done (mem: 1149.453M)
+[08/20 22:54:55     21s] Lumped Parasitic Loading Completed (total cpu=0:00:00.2, real=0:00:00.0, current mem=1149.453M)
+[08/20 22:54:55     21s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:01.9  Real Time: 0:00:01.0  MEM: 1149.453M)
+[08/20 22:54:55     21s] <CMD> timeDesign -postRoute -outDir /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/setup
+[08/20 22:54:56     21s]  Reset EOS DB
+[08/20 22:54:56     21s] Ignoring AAE DB Resetting ...
+[08/20 22:54:56     21s] Extraction called for design 'aes_cipher_top' of instances=12780 and nets=12626 using extraction engine 'postRoute' at effort level 'low' .
+[08/20 22:54:56     21s] PostRoute (effortLevel low) RC Extraction called for design aes_cipher_top.
+[08/20 22:54:56     21s] RC Extraction called in multi-corner(1) mode.
+[08/20 22:54:56     21s] Process corner(s) are loaded.
+[08/20 22:54:56     21s]  Corner: RC_TYP
+[08/20 22:54:56     21s] extractDetailRC Option : -outfile /tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d -maxResLength 200  -extended
+[08/20 22:54:56     21s] RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+[08/20 22:54:56     21s]       RC Corner Indexes            0   
+[08/20 22:54:56     21s] Capacitance Scaling Factor   : 1.00000 
+[08/20 22:54:56     21s] Coupling Cap. Scaling Factor : 1.00000 
+[08/20 22:54:56     21s] Resistance Scaling Factor    : 1.00000 
+[08/20 22:54:56     21s] Clock Cap. Scaling Factor    : 1.00000 
+[08/20 22:54:56     21s] Clock Res. Scaling Factor    : 1.00000 
+[08/20 22:54:56     21s] Shrink Factor                : 1.00000
+[08/20 22:54:56     21s] LayerId::1 widthSet size::4
+[08/20 22:54:56     21s] LayerId::2 widthSet size::4
+[08/20 22:54:56     21s] LayerId::3 widthSet size::4
+[08/20 22:54:56     21s] LayerId::4 widthSet size::4
+[08/20 22:54:56     21s] LayerId::5 widthSet size::4
+[08/20 22:54:56     21s] LayerId::6 widthSet size::4
+[08/20 22:54:56     21s] LayerId::7 widthSet size::4
+[08/20 22:54:56     21s] LayerId::8 widthSet size::4
+[08/20 22:54:56     21s] LayerId::9 widthSet size::4
+[08/20 22:54:56     21s] LayerId::10 widthSet size::3
+[08/20 22:54:56     21s] Initializing multi-corner capacitance tables ... 
+[08/20 22:54:56     21s] Initializing multi-corner resistance tables ...
+[08/20 22:54:56     21s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1069.5M)
+[08/20 22:54:56     21s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for storing RC.
+[08/20 22:54:56     21s] Extracted 10.0013% (CPU Time= 0:00:00.3  MEM= 1143.8M)
+[08/20 22:54:56     21s] Extracted 20.0013% (CPU Time= 0:00:00.4  MEM= 1143.8M)
+[08/20 22:54:56     21s] Extracted 30.0012% (CPU Time= 0:00:00.4  MEM= 1143.8M)
+[08/20 22:54:56     21s] Extracted 40.0011% (CPU Time= 0:00:00.5  MEM= 1145.8M)
+[08/20 22:54:56     21s] Extracted 50.0011% (CPU Time= 0:00:00.6  MEM= 1149.8M)
+[08/20 22:54:56     21s] Extracted 60.001% (CPU Time= 0:00:00.6  MEM= 1153.8M)
+[08/20 22:54:56     21s] Extracted 70.0009% (CPU Time= 0:00:00.7  MEM= 1155.8M)
+[08/20 22:54:56     22s] Extracted 80.0009% (CPU Time= 0:00:00.9  MEM= 1157.8M)
+[08/20 22:54:57     22s] Extracted 90.0008% (CPU Time= 0:00:01.0  MEM= 1163.8M)
+[08/20 22:54:57     22s] Extracted 100% (CPU Time= 0:00:01.3  MEM= 1164.8M)
+[08/20 22:54:57     22s] Number of Extracted Resistors     : 232259
+[08/20 22:54:57     22s] Number of Extracted Ground Cap.   : 243114
+[08/20 22:54:57     22s] Number of Extracted Coupling Cap. : 801454
+[08/20 22:54:57     22s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1148.773M)
+[08/20 22:54:57     22s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[08/20 22:54:57     22s]  Corner: RC_TYP
+[08/20 22:54:57     22s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1148.8M)
+[08/20 22:54:57     22s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb_Filter.rcdb.d' for storing RC.
+[08/20 22:54:57     22s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 12036 access done (mem: 1148.773M)
+[08/20 22:54:57     22s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1148.773M)
+[08/20 22:54:57     22s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1148.773M)
+[08/20 22:54:57     22s] processing rcdb (/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d) for hinst (top) of cell (aes_cipher_top);
+[08/20 22:54:57     22s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 0 access done (mem: 1148.773M)
+[08/20 22:54:57     22s] Lumped Parasitic Loading Completed (total cpu=0:00:00.1, real=0:00:00.0, current mem=1148.773M)
+[08/20 22:54:57     22s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:01.7  Real Time: 0:00:01.0  MEM: 1148.773M)
+[08/20 22:54:57     22s] Starting delay calculation for Setup views
+[08/20 22:54:57     23s] Starting SI iteration 1 using Infinite Timing Windows
+[08/20 22:54:58     23s] #################################################################################
+[08/20 22:54:58     23s] # Design Stage: PostRoute
+[08/20 22:54:58     23s] # Design Name: aes_cipher_top
+[08/20 22:54:58     23s] # Design Mode: 45nm
+[08/20 22:54:58     23s] # Analysis Mode: MMMC OCV 
+[08/20 22:54:58     23s] # Parasitics Mode: SPEF/RCDB
+[08/20 22:54:58     23s] # Signoff Settings: SI On 
+[08/20 22:54:58     23s] #################################################################################
+[08/20 22:54:58     23s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:54:58     23s] Setting infinite Tws ...
+[08/20 22:54:58     23s] First Iteration Infinite Tw... 
+[08/20 22:54:58     23s] Calculate early delays in OCV mode...
+[08/20 22:54:58     23s] Calculate late delays in OCV mode...
+[08/20 22:54:58     23s] Topological Sorting (REAL = 0:00:00.0, MEM = 1165.1M, InitMEM = 1165.1M)
+[08/20 22:54:58     23s] Start delay calculation (fullDC) (1 T). (MEM=1165.07)
+[08/20 22:54:58     23s] LayerId::1 widthSet size::4
+[08/20 22:54:58     23s] LayerId::2 widthSet size::4
+[08/20 22:54:58     23s] LayerId::3 widthSet size::4
+[08/20 22:54:58     23s] LayerId::4 widthSet size::4
+[08/20 22:54:58     23s] LayerId::5 widthSet size::4
+[08/20 22:54:58     23s] LayerId::6 widthSet size::4
+[08/20 22:54:58     23s] LayerId::7 widthSet size::4
+[08/20 22:54:58     23s] LayerId::8 widthSet size::4
+[08/20 22:54:58     23s] LayerId::9 widthSet size::4
+[08/20 22:54:58     23s] LayerId::10 widthSet size::3
+[08/20 22:54:58     23s] Initializing multi-corner capacitance tables ... 
+[08/20 22:54:58     23s] Initializing multi-corner resistance tables ...
+[08/20 22:54:58     23s] End AAE Lib Interpolated Model. (MEM=1165.2 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:54:58     23s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1174.742M)
+[08/20 22:54:58     23s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1174.7M)
+[08/20 22:54:58     23s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:01     26s] Total number of fetched objects 12593
+[08/20 22:55:01     26s] AAE_INFO-618: Total number of nets in the design is 12626,  100.0 percent of the nets selected for SI analysis
+[08/20 22:55:01     26s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:01     26s] End delay calculation. (MEM=1201.82 CPU=0:00:02.6 REAL=0:00:03.0)
+[08/20 22:55:01     26s] End delay calculation (fullDC). (MEM=1201.82 CPU=0:00:03.1 REAL=0:00:03.0)
+[08/20 22:55:01     26s] *** CDM Built up (cpu=0:00:03.4  real=0:00:03.0  mem= 1201.8M) ***
+[08/20 22:55:01     26s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1193.8M)
+[08/20 22:55:01     26s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[08/20 22:55:01     26s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1193.8M)
+[08/20 22:55:01     26s] Starting SI iteration 2
+[08/20 22:55:02     27s] Calculate early delays in OCV mode...
+[08/20 22:55:02     27s] Calculate late delays in OCV mode...
+[08/20 22:55:02     27s] Start delay calculation (fullDC) (1 T). (MEM=1143.94)
+[08/20 22:55:02     27s] End AAE Lib Interpolated Model. (MEM=1143.94 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:02     27s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+[08/20 22:55:02     27s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12593. 
+[08/20 22:55:02     27s] Total number of fetched objects 12593
+[08/20 22:55:02     27s] AAE_INFO-618: Total number of nets in the design is 12626,  0.1 percent of the nets selected for SI analysis
+[08/20 22:55:02     27s] End delay calculation. (MEM=1150.09 CPU=0:00:00.1 REAL=0:00:00.0)
+[08/20 22:55:02     27s] End delay calculation (fullDC). (MEM=1150.09 CPU=0:00:00.2 REAL=0:00:00.0)
+[08/20 22:55:02     27s] *** CDM Built up (cpu=0:00:00.2  real=0:00:01.0  mem= 1150.1M) ***
+[08/20 22:55:02     27s] *** Done Building Timing Graph (cpu=0:00:04.5 real=0:00:05.0 totSessionCpu=0:00:27.5 mem=1150.1M)
+[08/20 22:55:02     27s] Effort level <high> specified for reg2reg path_group
+[08/20 22:55:02     27s] End AAE Lib Interpolated Model. (MEM=1114.09 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:02     27s] Begin: glitch net info
+[08/20 22:55:02     27s] glitch slack range: number of glitch nets
+[08/20 22:55:02     27s] glitch slack < -0.32 : 0
+[08/20 22:55:02     27s] -0.32 < glitch slack < -0.28 : 0
+[08/20 22:55:02     27s] -0.28 < glitch slack < -0.24 : 0
+[08/20 22:55:02     27s] -0.24 < glitch slack < -0.2 : 0
+[08/20 22:55:02     27s] -0.2 < glitch slack < -0.16 : 0
+[08/20 22:55:02     27s] -0.16 < glitch slack < -0.12 : 0
+[08/20 22:55:02     27s] -0.12 < glitch slack < -0.08 : 0
+[08/20 22:55:02     27s] -0.08 < glitch slack < -0.04 : 0
+[08/20 22:55:02     27s] -0.04 < glitch slack : 0
+[08/20 22:55:02     27s] End: glitch net info
+[08/20 22:55:02     27s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1115.1M
+[08/20 22:55:02     27s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1115.1M
+[08/20 22:55:02     27s] OPERPROF:     Starting RoutingBlockageFromWireViaStBox at level 3, MEM:1115.5M
+[08/20 22:55:02     27s] OPERPROF:     Finished RoutingBlockageFromWireViaStBox at level 3, CPU:0.010, REAL:0.004, MEM:1115.5M
+[08/20 22:55:02     27s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.020, REAL:0.016, MEM:1115.5M
+[08/20 22:55:02     27s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.020, REAL:0.019, MEM:1115.5M
+[08/20 22:55:03     28s] 
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ VIEW_TYP 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.390  |  0.390  |  0.500  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   691   |   561   |   435   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |     17 (17)      |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 61.556%
+Total number of glitch violations: 0
+------------------------------------------------------------
+Reported timing to dir /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/setup
+[08/20 22:55:04     28s] Total CPU time: 7.32 sec
+[08/20 22:55:04     28s] Total Real time: 9.0 sec
+[08/20 22:55:04     28s] Total Memory Usage: 1130.363281 Mbytes
+[08/20 22:55:04     28s] Info: pop threads available for lower-level modules during optimization.
+[08/20 22:55:04     28s] Reset AAE Options
+[08/20 22:55:04     28s] 
+[08/20 22:55:04     28s] =============================================================================================
+[08/20 22:55:04     28s]  Final TAT Report for timeDesign
+[08/20 22:55:04     28s] =============================================================================================
+[08/20 22:55:04     28s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[08/20 22:55:04     28s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:04     28s] [ TimingUpdate           ]      2   0:00:00.4  (   4.8 % )     0:00:04.7 /  0:00:04.7    1.0
+[08/20 22:55:04     28s] [ FullDelayCalc          ]      1   0:00:04.3  (  53.7 % )     0:00:04.3 /  0:00:04.3    1.0
+[08/20 22:55:04     28s] [ Extraction             ]      1   0:00:01.8  (  23.1 % )     0:00:01.8 /  0:00:01.7    0.9
+[08/20 22:55:04     28s] [ ViewPruning            ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[08/20 22:55:04     28s] [ TimingReport           ]      2   0:00:00.0  (   0.4 % )     0:00:00.0 /  0:00:00.0    1.0
+[08/20 22:55:04     28s] [ DrvReport              ]      1   0:00:01.0  (  12.1 % )     0:00:01.0 /  0:00:00.4    0.4
+[08/20 22:55:04     28s] [ MISC                   ]          0:00:00.5  (   5.9 % )     0:00:00.5 /  0:00:00.4    0.9
+[08/20 22:55:04     28s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:04     28s]  timeDesign TOTAL                   0:00:08.0  ( 100.0 % )     0:00:08.0 /  0:00:07.3    0.9
+[08/20 22:55:04     28s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:04     28s] 
+[08/20 22:55:04     28s] <CMD> timeDesign -postRoute -hold -outDir /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/hold
+[08/20 22:55:04     28s]  Reset EOS DB
+[08/20 22:55:04     28s] Ignoring AAE DB Resetting ...
+[08/20 22:55:04     28s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 12036 access done (mem: 1130.363M)
+[08/20 22:55:04     28s] Extraction called for design 'aes_cipher_top' of instances=12780 and nets=12626 using extraction engine 'postRoute' at effort level 'low' .
+[08/20 22:55:04     28s] PostRoute (effortLevel low) RC Extraction called for design aes_cipher_top.
+[08/20 22:55:04     28s] RC Extraction called in multi-corner(1) mode.
+[08/20 22:55:04     28s] Process corner(s) are loaded.
+[08/20 22:55:04     28s]  Corner: RC_TYP
+[08/20 22:55:04     28s] extractDetailRC Option : -outfile /tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d -maxResLength 200  -extended
+[08/20 22:55:04     28s] RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+[08/20 22:55:04     28s]       RC Corner Indexes            0   
+[08/20 22:55:04     28s] Capacitance Scaling Factor   : 1.00000 
+[08/20 22:55:04     28s] Coupling Cap. Scaling Factor : 1.00000 
+[08/20 22:55:04     28s] Resistance Scaling Factor    : 1.00000 
+[08/20 22:55:04     28s] Clock Cap. Scaling Factor    : 1.00000 
+[08/20 22:55:04     28s] Clock Res. Scaling Factor    : 1.00000 
+[08/20 22:55:04     28s] Shrink Factor                : 1.00000
+[08/20 22:55:04     28s] LayerId::1 widthSet size::4
+[08/20 22:55:04     28s] LayerId::2 widthSet size::4
+[08/20 22:55:04     28s] LayerId::3 widthSet size::4
+[08/20 22:55:04     28s] LayerId::4 widthSet size::4
+[08/20 22:55:04     28s] LayerId::5 widthSet size::4
+[08/20 22:55:04     28s] LayerId::6 widthSet size::4
+[08/20 22:55:04     28s] LayerId::7 widthSet size::4
+[08/20 22:55:04     28s] LayerId::8 widthSet size::4
+[08/20 22:55:04     28s] LayerId::9 widthSet size::4
+[08/20 22:55:04     28s] LayerId::10 widthSet size::3
+[08/20 22:55:04     28s] Initializing multi-corner capacitance tables ... 
+[08/20 22:55:04     28s] Initializing multi-corner resistance tables ...
+[08/20 22:55:04     28s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1128.4M)
+[08/20 22:55:04     28s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for storing RC.
+[08/20 22:55:04     28s] Extracted 10.0013% (CPU Time= 0:00:00.3  MEM= 1226.7M)
+[08/20 22:55:04     28s] Extracted 20.0013% (CPU Time= 0:00:00.4  MEM= 1226.7M)
+[08/20 22:55:04     29s] Extracted 30.0012% (CPU Time= 0:00:00.4  MEM= 1226.7M)
+[08/20 22:55:04     29s] Extracted 40.0011% (CPU Time= 0:00:00.5  MEM= 1227.7M)
+[08/20 22:55:04     29s] Extracted 50.0011% (CPU Time= 0:00:00.6  MEM= 1231.7M)
+[08/20 22:55:04     29s] Extracted 60.001% (CPU Time= 0:00:00.6  MEM= 1234.7M)
+[08/20 22:55:04     29s] Extracted 70.0009% (CPU Time= 0:00:00.7  MEM= 1236.7M)
+[08/20 22:55:04     29s] Extracted 80.0009% (CPU Time= 0:00:00.9  MEM= 1238.7M)
+[08/20 22:55:05     29s] Extracted 90.0008% (CPU Time= 0:00:01.0  MEM= 1244.7M)
+[08/20 22:55:05     29s] Extracted 100% (CPU Time= 0:00:01.4  MEM= 1246.7M)
+[08/20 22:55:05     29s] Number of Extracted Resistors     : 232259
+[08/20 22:55:05     29s] Number of Extracted Ground Cap.   : 243114
+[08/20 22:55:05     29s] Number of Extracted Coupling Cap. : 801454
+[08/20 22:55:05     29s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1220.422M)
+[08/20 22:55:05     29s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[08/20 22:55:05     29s]  Corner: RC_TYP
+[08/20 22:55:05     29s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1220.4M)
+[08/20 22:55:05     29s] Creating parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb_Filter.rcdb.d' for storing RC.
+[08/20 22:55:05     30s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 12036 access done (mem: 1220.422M)
+[08/20 22:55:05     30s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1220.422M)
+[08/20 22:55:05     30s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1220.422M)
+[08/20 22:55:05     30s] processing rcdb (/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d) for hinst (top) of cell (aes_cipher_top);
+[08/20 22:55:06     30s] Closing parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d': 0 access done (mem: 1220.422M)
+[08/20 22:55:06     30s] Lumped Parasitic Loading Completed (total cpu=0:00:00.2, real=0:00:01.0, current mem=1220.422M)
+[08/20 22:55:06     30s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:01.9  Real Time: 0:00:02.0  MEM: 1220.422M)
+[08/20 22:55:06     30s] Effort level <high> specified for reg2reg path_group
+[08/20 22:55:06     30s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1130.9M
+[08/20 22:55:06     30s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1130.9M
+[08/20 22:55:06     30s] OPERPROF:     Starting RoutingBlockageFromWireViaStBox at level 3, MEM:1131.3M
+[08/20 22:55:06     30s] OPERPROF:     Finished RoutingBlockageFromWireViaStBox at level 3, CPU:0.010, REAL:0.004, MEM:1131.3M
+[08/20 22:55:06     30s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.020, REAL:0.016, MEM:1131.3M
+[08/20 22:55:06     30s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.020, REAL:0.018, MEM:1131.3M
+[08/20 22:55:06     30s] Starting delay calculation for Hold views
+[08/20 22:55:06     30s] Starting SI iteration 1 using Infinite Timing Windows
+[08/20 22:55:06     30s] #################################################################################
+[08/20 22:55:06     30s] # Design Stage: PostRoute
+[08/20 22:55:06     30s] # Design Name: aes_cipher_top
+[08/20 22:55:06     30s] # Design Mode: 45nm
+[08/20 22:55:06     30s] # Analysis Mode: MMMC OCV 
+[08/20 22:55:06     30s] # Parasitics Mode: SPEF/RCDB
+[08/20 22:55:06     30s] # Signoff Settings: SI On 
+[08/20 22:55:06     30s] #################################################################################
+[08/20 22:55:06     30s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:06     30s] Setting infinite Tws ...
+[08/20 22:55:06     30s] First Iteration Infinite Tw... 
+[08/20 22:55:06     31s] Calculate late delays in OCV mode...
+[08/20 22:55:06     31s] Calculate early delays in OCV mode...
+[08/20 22:55:06     31s] Topological Sorting (REAL = 0:00:00.0, MEM = 1145.2M, InitMEM = 1145.2M)
+[08/20 22:55:06     31s] Start delay calculation (fullDC) (1 T). (MEM=1145.21)
+[08/20 22:55:06     31s] LayerId::1 widthSet size::4
+[08/20 22:55:06     31s] LayerId::2 widthSet size::4
+[08/20 22:55:06     31s] LayerId::3 widthSet size::4
+[08/20 22:55:06     31s] LayerId::4 widthSet size::4
+[08/20 22:55:06     31s] LayerId::5 widthSet size::4
+[08/20 22:55:06     31s] LayerId::6 widthSet size::4
+[08/20 22:55:06     31s] LayerId::7 widthSet size::4
+[08/20 22:55:06     31s] LayerId::8 widthSet size::4
+[08/20 22:55:06     31s] LayerId::9 widthSet size::4
+[08/20 22:55:06     31s] LayerId::10 widthSet size::3
+[08/20 22:55:06     31s] Initializing multi-corner capacitance tables ... 
+[08/20 22:55:06     31s] Initializing multi-corner resistance tables ...
+[08/20 22:55:06     31s] End AAE Lib Interpolated Model. (MEM=1145.34 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:06     31s] Opening parasitic data file '/tmp/innovus_temp_16390_qingteng_host_ERmkTQ/aes_cipher_top_16390_QtwY6e.rcdb.d' for reading (mem: 1145.340M)
+[08/20 22:55:07     31s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1145.3M)
+[08/20 22:55:07     31s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:09     34s] Total number of fetched objects 12593
+[08/20 22:55:09     34s] AAE_INFO-618: Total number of nets in the design is 12626,  100.0 percent of the nets selected for SI analysis
+[08/20 22:55:09     34s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:09     34s] End delay calculation. (MEM=1193.04 CPU=0:00:02.6 REAL=0:00:02.0)
+[08/20 22:55:09     34s] End delay calculation (fullDC). (MEM=1193.04 CPU=0:00:03.1 REAL=0:00:03.0)
+[08/20 22:55:09     34s] *** CDM Built up (cpu=0:00:03.2  real=0:00:03.0  mem= 1193.0M) ***
+[08/20 22:55:10     34s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1193.0M)
+[08/20 22:55:10     34s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[08/20 22:55:10     34s] Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1193.0M)
+[08/20 22:55:10     34s] Starting SI iteration 2
+[08/20 22:55:10     34s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:10     34s] Calculate late delays in OCV mode...
+[08/20 22:55:10     34s] Calculate early delays in OCV mode...
+[08/20 22:55:10     34s] Start delay calculation (fullDC) (1 T). (MEM=1156.15)
+[08/20 22:55:10     34s] End AAE Lib Interpolated Model. (MEM=1156.15 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:10     34s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+[08/20 22:55:10     34s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12593. 
+[08/20 22:55:10     34s] Total number of fetched objects 12593
+[08/20 22:55:10     34s] AAE_INFO-618: Total number of nets in the design is 12626,  2.0 percent of the nets selected for SI analysis
+[08/20 22:55:10     34s] End delay calculation. (MEM=1162.31 CPU=0:00:00.2 REAL=0:00:00.0)
+[08/20 22:55:10     34s] End delay calculation (fullDC). (MEM=1162.31 CPU=0:00:00.2 REAL=0:00:00.0)
+[08/20 22:55:10     35s] *** CDM Built up (cpu=0:00:00.2  real=0:00:00.0  mem= 1162.3M) ***
+[08/20 22:55:10     35s] *** Done Building Timing Graph (cpu=0:00:04.4 real=0:00:04.0 totSessionCpu=0:00:35.2 mem=1162.3M)
+[08/20 22:55:10     35s] 
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Hold  views included:
+ VIEW_TYP 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.006  |  0.133  |  0.006  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   691   |   561   |   435   |
++--------------------+---------+---------+---------+
+
+Density: 61.556%
+------------------------------------------------------------
+Reported timing to dir /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/hold
+[08/20 22:55:11     35s] Total CPU time: 6.88 sec
+[08/20 22:55:11     35s] Total Real time: 7.0 sec
+[08/20 22:55:11     35s] Total Memory Usage: 1090.757812 Mbytes
+[08/20 22:55:11     35s] Reset AAE Options
+[08/20 22:55:11     35s] 
+[08/20 22:55:11     35s] =============================================================================================
+[08/20 22:55:11     35s]  Final TAT Report for timeDesign
+[08/20 22:55:11     35s] =============================================================================================
+[08/20 22:55:11     35s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[08/20 22:55:11     35s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:11     35s] [ TimingUpdate           ]      1   0:00:00.2  (   2.8 % )     0:00:04.4 /  0:00:04.4    1.0
+[08/20 22:55:11     35s] [ FullDelayCalc          ]      1   0:00:04.2  (  60.4 % )     0:00:04.2 /  0:00:04.2    1.0
+[08/20 22:55:11     35s] [ Extraction             ]      1   0:00:02.1  (  29.9 % )     0:00:02.1 /  0:00:01.9    0.9
+[08/20 22:55:11     35s] [ ViewPruning            ]      2   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[08/20 22:55:11     35s] [ TimingReport           ]      2   0:00:00.0  (   0.4 % )     0:00:00.0 /  0:00:00.0    1.0
+[08/20 22:55:11     35s] [ MISC                   ]          0:00:00.4  (   6.5 % )     0:00:00.4 /  0:00:00.5    1.0
+[08/20 22:55:11     35s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:11     35s]  timeDesign TOTAL                   0:00:06.9  ( 100.0 % )     0:00:06.9 /  0:00:06.8    1.0
+[08/20 22:55:11     35s] ---------------------------------------------------------------------------------------------
+[08/20 22:55:11     35s] 
+[08/20 22:55:11     35s] <CMD> redirect -file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/setup_worst.rpt { report_timing -late -max_paths 10 -path_type full_clock }
+[08/20 22:55:15     39s] <CMD> redirect -file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/hold_worst.rpt { report_timing -early -max_paths 10 -path_type full_clock }
+[08/20 22:55:19     44s] <CMD> redirect -file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/constraints.rpt { report_constraint -all_violators }
+[08/20 22:55:23     48s] <CMD> redirect -file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/fanout.rpt { reportFanoutViolation }
+[08/20 22:55:23     48s] <CMD> redirect -file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/placement.rpt { checkPlace }
+[08/20 22:55:24     48s] <CMD> verifyConnectivity -type all -error 1000 -warning 1000 -report /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/connectivity.rpt
+[08/20 22:55:24     48s] VERIFY_CONNECTIVITY use new engine.
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] ******** Start: VERIFY CONNECTIVITY ********
+[08/20 22:55:24     48s] Start Time: Thu Aug 20 22:55:24 2026
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] Design Name: aes_cipher_top
+[08/20 22:55:24     48s] Database Units: 2000
+[08/20 22:55:24     48s] Design Boundary: (0.0000, 0.0000) (177.8400, 176.9600)
+[08/20 22:55:24     48s] Error Limit = 1000; Warning Limit = 1000
+[08/20 22:55:24     48s] Check all nets
+[08/20 22:55:24     48s] **** 22:55:24 **** Processed 5000 nets.
+[08/20 22:55:24     48s] **** 22:55:24 **** Processed 10000 nets.
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] Begin Summary 
+[08/20 22:55:24     48s]   Found no problems or warnings.
+[08/20 22:55:24     48s] End Summary
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] End Time: Thu Aug 20 22:55:24 2026
+[08/20 22:55:24     48s] Time Elapsed: 0:00:00.0
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] ******** End: VERIFY CONNECTIVITY ********
+[08/20 22:55:24     48s]   Verification Complete : 0 Viols.  0 Wrngs.
+[08/20 22:55:24     48s]   (CPU Time: 0:00:00.5  MEM: 0.000M)
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s] <CMD> verify_drc -report /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/drc.rpt
+[08/20 22:55:24     48s] #-report /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/reports/repaired/drc.rpt # string, default="", user setting
+[08/20 22:55:24     48s]  *** Starting Verify DRC (MEM: 1165.3) ***
+[08/20 22:55:24     48s] 
+[08/20 22:55:24     48s]   VERIFY DRC ...... Starting Verification
+[08/20 22:55:24     48s]   VERIFY DRC ...... Initializing
+[08/20 22:55:24     48s]   VERIFY DRC ...... Deleting Existing Violations
+[08/20 22:55:24     48s]   VERIFY DRC ...... Creating Sub-Areas
+[08/20 22:55:24     48s]   VERIFY DRC ...... Using new threading
+[08/20 22:55:24     48s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 59.400 59.400} 1 of 9
+[08/20 22:55:24     49s]   VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+[08/20 22:55:24     49s]   VERIFY DRC ...... Sub-Area: {59.400 0.000 118.800 59.400} 2 of 9
+[08/20 22:55:24     49s]   VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+[08/20 22:55:24     49s]   VERIFY DRC ...... Sub-Area: {118.800 0.000 177.840 59.400} 3 of 9
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area: {0.000 59.400 59.400 118.800} 4 of 9
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area: {59.400 59.400 118.800 118.800} 5 of 9
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+[08/20 22:55:25     49s]   VERIFY DRC ...... Sub-Area: {118.800 59.400 177.840 118.800} 6 of 9
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area: {0.000 118.800 59.400 176.960} 7 of 9
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area: {59.400 118.800 118.800 176.960} 8 of 9
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area: {118.800 118.800 177.840 176.960} 9 of 9
+[08/20 22:55:25     50s]   VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+[08/20 22:55:25     50s] 
+[08/20 22:55:25     50s]   Verification Complete : 0 Viols.
+[08/20 22:55:25     50s] 
+[08/20 22:55:25     50s]  *** End Verify DRC (CPU: 0:00:01.5  ELAPSED TIME: 1.00  MEM: 33.0M) ***
+[08/20 22:55:25     50s] 
+[08/20 22:55:25     50s] <CMD> report_timing -collection -early -max_points 1
+[08/20 22:55:25     50s] **WARN: (TCLCMD-1131):	'The -max_points parameter of the report_timing command is obsolete. The timing engine will map it to -max_paths parameter. For future releases, you should remove this parameter from your scripts.'
+[08/20 22:55:26     50s] Starting SI iteration 1 using Infinite Timing Windows
+[08/20 22:55:26     50s] #################################################################################
+[08/20 22:55:26     50s] # Design Stage: PostRoute
+[08/20 22:55:26     50s] # Design Name: aes_cipher_top
+[08/20 22:55:26     50s] # Design Mode: 45nm
+[08/20 22:55:26     50s] # Analysis Mode: MMMC OCV 
+[08/20 22:55:26     50s] # Parasitics Mode: SPEF/RCDB
+[08/20 22:55:26     50s] # Signoff Settings: SI On 
+[08/20 22:55:26     50s] #################################################################################
+[08/20 22:55:26     50s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:26     50s] Setting infinite Tws ...
+[08/20 22:55:26     50s] First Iteration Infinite Tw... 
+[08/20 22:55:26     50s] Calculate late delays in OCV mode...
+[08/20 22:55:26     50s] Calculate early delays in OCV mode...
+[08/20 22:55:26     50s] Topological Sorting (REAL = 0:00:00.0, MEM = 1162.2M, InitMEM = 1162.2M)
+[08/20 22:55:26     50s] Start delay calculation (fullDC) (1 T). (MEM=1162.18)
+[08/20 22:55:26     51s] End AAE Lib Interpolated Model. (MEM=1162.31 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:29     53s] Total number of fetched objects 12593
+[08/20 22:55:29     53s] AAE_INFO-618: Total number of nets in the design is 12626,  100.0 percent of the nets selected for SI analysis
+[08/20 22:55:29     53s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:29     53s] End delay calculation. (MEM=1242.01 CPU=0:00:02.5 REAL=0:00:03.0)
+[08/20 22:55:29     53s] End delay calculation (fullDC). (MEM=1242.01 CPU=0:00:02.9 REAL=0:00:03.0)
+[08/20 22:55:29     53s] *** CDM Built up (cpu=0:00:03.2  real=0:00:03.0  mem= 1242.0M) ***
+[08/20 22:55:29     54s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1242.0M)
+[08/20 22:55:29     54s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[08/20 22:55:29     54s] Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1242.0M)
+[08/20 22:55:29     54s] Starting SI iteration 2
+[08/20 22:55:29     54s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:29     54s] Calculate late delays in OCV mode...
+[08/20 22:55:29     54s] Calculate early delays in OCV mode...
+[08/20 22:55:29     54s] Start delay calculation (fullDC) (1 T). (MEM=1205.12)
+[08/20 22:55:30     54s] End AAE Lib Interpolated Model. (MEM=1205.12 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:30     54s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+[08/20 22:55:30     54s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12593. 
+[08/20 22:55:30     54s] Total number of fetched objects 12593
+[08/20 22:55:30     54s] AAE_INFO-618: Total number of nets in the design is 12626,  2.0 percent of the nets selected for SI analysis
+[08/20 22:55:30     54s] End delay calculation. (MEM=1211.28 CPU=0:00:00.1 REAL=0:00:00.0)
+[08/20 22:55:30     54s] End delay calculation (fullDC). (MEM=1211.28 CPU=0:00:00.2 REAL=0:00:01.0)
+[08/20 22:55:30     54s] *** CDM Built up (cpu=0:00:00.2  real=0:00:01.0  mem= 1211.3M) ***
+[08/20 22:55:30     54s] <CMD> report_timing -collection -late -max_points 1
+[08/20 22:55:30     54s] **WARN: (TCLCMD-1131):	'The -max_points parameter of the report_timing command is obsolete. The timing engine will map it to -max_paths parameter. For future releases, you should remove this parameter from your scripts.'
+[08/20 22:55:30     54s] **WARN: (TCLCMD-1131):	'The software has performed a full/partial timing reset. All existing timing path and timing point collection references have been invalidated and may no longer be referenced.'
+[08/20 22:55:30     54s] Starting SI iteration 1 using Infinite Timing Windows
+[08/20 22:55:30     55s] #################################################################################
+[08/20 22:55:30     55s] # Design Stage: PostRoute
+[08/20 22:55:30     55s] # Design Name: aes_cipher_top
+[08/20 22:55:30     55s] # Design Mode: 45nm
+[08/20 22:55:30     55s] # Analysis Mode: MMMC OCV 
+[08/20 22:55:30     55s] # Parasitics Mode: SPEF/RCDB
+[08/20 22:55:30     55s] # Signoff Settings: SI On 
+[08/20 22:55:30     55s] #################################################################################
+[08/20 22:55:30     55s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:30     55s] Setting infinite Tws ...
+[08/20 22:55:30     55s] First Iteration Infinite Tw... 
+[08/20 22:55:30     55s] Calculate early delays in OCV mode...
+[08/20 22:55:30     55s] Calculate late delays in OCV mode...
+[08/20 22:55:30     55s] Topological Sorting (REAL = 0:00:00.0, MEM = 1203.0M, InitMEM = 1203.0M)
+[08/20 22:55:30     55s] Start delay calculation (fullDC) (1 T). (MEM=1203.03)
+[08/20 22:55:31     55s] End AAE Lib Interpolated Model. (MEM=1203.16 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:33     58s] Total number of fetched objects 12593
+[08/20 22:55:33     58s] AAE_INFO-618: Total number of nets in the design is 12626,  100.0 percent of the nets selected for SI analysis
+[08/20 22:55:33     58s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:33     58s] End delay calculation. (MEM=1235.16 CPU=0:00:02.4 REAL=0:00:02.0)
+[08/20 22:55:33     58s] End delay calculation (fullDC). (MEM=1235.16 CPU=0:00:02.9 REAL=0:00:03.0)
+[08/20 22:55:33     58s] *** CDM Built up (cpu=0:00:03.1  real=0:00:03.0  mem= 1235.2M) ***
+[08/20 22:55:34     58s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1235.2M)
+[08/20 22:55:34     58s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[08/20 22:55:34     58s] Loading CTE timing window is completed (CPU = 0:00:00.1, REAL = 0:00:00.0, MEM = 1235.2M)
+[08/20 22:55:34     58s] Starting SI iteration 2
+[08/20 22:55:34     58s] AAE_INFO: 1 threads acquired from CTE.
+[08/20 22:55:34     58s] Calculate early delays in OCV mode...
+[08/20 22:55:34     58s] Calculate late delays in OCV mode...
+[08/20 22:55:34     58s] Start delay calculation (fullDC) (1 T). (MEM=1210.28)
+[08/20 22:55:34     58s] End AAE Lib Interpolated Model. (MEM=1210.28 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[08/20 22:55:34     58s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Skipped = 0. 
+[08/20 22:55:34     58s] Glitch Analysis: View VIEW_TYP -- Total Number of Nets Analyzed = 12593. 
+[08/20 22:55:34     58s] Total number of fetched objects 12593
+[08/20 22:55:34     58s] AAE_INFO-618: Total number of nets in the design is 12626,  0.1 percent of the nets selected for SI analysis
+[08/20 22:55:34     58s] End delay calculation. (MEM=1216.44 CPU=0:00:00.1 REAL=0:00:00.0)
+[08/20 22:55:34     58s] End delay calculation (fullDC). (MEM=1216.44 CPU=0:00:00.2 REAL=0:00:00.0)
+[08/20 22:55:34     58s] *** CDM Built up (cpu=0:00:00.2  real=0:00:00.0  mem= 1216.4M) ***
+[08/20 22:55:34     59s] <CMD> saveDesign /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc
+[08/20 22:55:34     59s] The in-memory database contained RC information but was not saved. To save 
+[08/20 22:55:34     59s] the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+[08/20 22:55:34     59s] so it should only be saved when it is really desired.
+[08/20 22:55:34     59s] #% Begin save design ... (date=08/20 22:55:34, mem=1057.6M)
+[08/20 22:55:34     59s] % Begin Save ccopt configuration ... (date=08/20 22:55:34, mem=1060.6M)
+[08/20 22:55:34     59s] % End Save ccopt configuration ... (date=08/20 22:55:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=1062.2M, current mem=1062.2M)
+[08/20 22:55:34     59s] % Begin Save netlist data ... (date=08/20 22:55:34, mem=1062.2M)
+[08/20 22:55:34     59s] Writing Binary DB to /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/aes_cipher_top.v.bin in single-threaded mode...
+[08/20 22:55:34     59s] % End Save netlist data ... (date=08/20 22:55:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=1062.2M, current mem=1062.2M)
+[08/20 22:55:34     59s] Saving congestion map file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/aes_cipher_top.route.congmap.gz ...
+[08/20 22:55:35     59s] % Begin Save AAE data ... (date=08/20 22:55:34, mem=1062.7M)
+[08/20 22:55:35     59s] Saving AAE Data ...
+[08/20 22:55:35     59s] % End Save AAE data ... (date=08/20 22:55:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1062.8M, current mem=1062.8M)
+[08/20 22:55:35     59s] % Begin Save clock tree data ... (date=08/20 22:55:35, mem=1063.8M)
+[08/20 22:55:35     59s] % End Save clock tree data ... (date=08/20 22:55:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1063.8M, current mem=1063.8M)
+[08/20 22:55:35     59s] Saving preference file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/gui.pref.tcl ...
+[08/20 22:55:35     59s] Saving mode setting ...
+[08/20 22:55:35     59s] Saving global file ...
+[08/20 22:55:35     59s] % Begin Save floorplan data ... (date=08/20 22:55:35, mem=1064.0M)
+[08/20 22:55:35     59s] Saving floorplan file ...
+[08/20 22:55:35     59s] % End Save floorplan data ... (date=08/20 22:55:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1064.4M, current mem=1064.4M)
+[08/20 22:55:35     59s] Saving PG file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/aes_cipher_top.pg.gz
+[08/20 22:55:35     59s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1173.5M) ***
+[08/20 22:55:35     59s] Saving Drc markers ...
+[08/20 22:55:35     59s] ... No Drc file written since there is no markers found.
+[08/20 22:55:35     59s] % Begin Save placement data ... (date=08/20 22:55:35, mem=1064.7M)
+[08/20 22:55:35     59s] ** Saving stdCellPlacement_binary (version# 2) ...
+[08/20 22:55:35     59s] Save Adaptive View Pruing View Names to Binary file
+[08/20 22:55:35     59s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1176.5M) ***
+[08/20 22:55:35     59s] % End Save placement data ... (date=08/20 22:55:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1064.7M, current mem=1064.7M)
+[08/20 22:55:35     59s] % Begin Save routing data ... (date=08/20 22:55:35, mem=1064.7M)
+[08/20 22:55:35     59s] Saving route file ...
+[08/20 22:55:35     59s] *** Completed saveRoute (cpu=0:00:00.1 real=0:00:00.0 mem=1173.5M) ***
+[08/20 22:55:35     59s] % End Save routing data ... (date=08/20 22:55:35, total cpu=0:00:00.1, real=0:00:00.0, peak res=1064.8M, current mem=1064.8M)
+[08/20 22:55:35     59s] Saving property file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/aes_cipher_top.prop
+[08/20 22:55:35     59s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1176.5M) ***
+[08/20 22:55:35     59s] #Saving pin access data to file /home/host/hold_delete_repeaters_20260820/inject_violation/scenario_0003_hold_delete_repeaters/outputs/golden_repaired.enc.dat/aes_cipher_top.apa ...
+[08/20 22:55:35     59s] #
+[08/20 22:55:35     59s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /opt/cadence/INNOVUS/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPSYT-6245):	Error , while saving MS constraint file.
+[08/20 22:55:35     59s] % Begin Save power constraints data ... (date=08/20 22:55:35, mem=1065.7M)
+[08/20 22:55:35     59s] % End Save power constraints data ... (date=08/20 22:55:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=1065.9M, current mem=1065.9M)
+[08/20 22:55:36     60s] Generated self-contained design golden_repaired.enc.dat
+[08/20 22:55:36     60s] #% End save design ... (date=08/20 22:55:36, total cpu=0:00:01.5, real=0:00:02.0, peak res=1069.4M, current mem=1069.4M)
+[08/20 22:55:36     60s] 
+[08/20 22:55:36     60s] *** Summary of all messages that are not suppressed in this session:
+[08/20 22:55:36     60s] Severity  ID               Count  Summary                                  
+[08/20 22:55:36     60s] ERROR     IMPSYT-6245          1  Error %s, while saving MS constraint fil...
+[08/20 22:55:36     60s] ERROR     IMPOAX-142           2  %s                                       
+[08/20 22:55:36     60s] *** Message Summary: 0 warning(s), 3 error(s)
+[08/20 22:55:36     60s] 
+[08/20 22:55:36     60s] 
+[08/20 22:55:36     60s] *** Memory Usage v#1 (Current mem = 1207.793M, initial mem = 262.340M) ***
+[08/20 22:55:36     60s] 
+[08/20 22:55:36     60s] *** Summary of all messages that are not suppressed in this session:
+[08/20 22:55:36     60s] Severity  ID               Count  Summary                                  
+[08/20 22:55:36     60s] WARNING   IMPTS-124            2  Timing library description of pin '%s' i...
+[08/20 22:55:36     60s] ERROR     IMPSYT-6245          1  Error %s, while saving MS constraint fil...
+[08/20 22:55:36     60s] WARNING   IMPVL-159            2  Pin '%s' of cell '%s' is defined in LEF ...
+[08/20 22:55:36     60s] WARNING   IMPOPT-6115          1  ECO batchmode has been activated. Set se...
+[08/20 22:55:36     60s] WARNING   IMPCCOPT-2332        1  The property %s is deprecated. It still ...
+[08/20 22:55:36     60s] ERROR     IMPOAX-142           5  %s                                       
+[08/20 22:55:36     60s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[08/20 22:55:36     60s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[08/20 22:55:36     60s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[08/20 22:55:36     60s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[08/20 22:55:36     60s] WARNING   TCLCMD-1131          3  '%s'                                     
+[08/20 22:55:36     60s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[08/20 22:55:36     60s] *** Message Summary: 31 warning(s), 8 error(s)
+[08/20 22:55:36     60s] 
+[08/20 22:55:36     60s] --- Ending "Innovus" (totcpu=0:01:01, real=0:00:57.0, mem=1207.8M) ---

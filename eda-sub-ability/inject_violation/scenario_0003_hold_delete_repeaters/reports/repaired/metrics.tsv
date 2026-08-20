@@ -1,0 +1,7 @@
+hold_slack_ns	0.006
+hold_beginpoint	text_in[23]
+hold_endpoint	_19212_/D
+setup_slack_ns	0.390
+repair_instance	HOLD_FIX_CLKBUF_00140
+repair_cell	CLKBUF_X1
+repair_sink	FE_PHC963_00140/A

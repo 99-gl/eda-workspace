@@ -1,0 +1,6 @@
+{
+  "FE_OFC568_09155": {"shape": "2+16-1", "fanout": 17, "cap_slack": -0.010},
+  "FE_OFC611_00305": {"shape": "9+9-1", "fanout": 17, "cap_slack": 0.0, "transition_violations": 0},
+  "FE_OFC702_01816": {"shape": "5+13-1", "fanout": 17, "cap_slack": -0.011}
+}
+

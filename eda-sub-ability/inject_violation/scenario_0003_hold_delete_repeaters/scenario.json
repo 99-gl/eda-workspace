@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "scenario_id": "scenario_0003_hold_delete_repeaters",
+  "design": "aes_cipher_top",
+  "tool": {"name": "Cadence Innovus", "version": "19.10-p002_1"},
+  "baseline": "../../baseline/aes_route.enc",
+  "injected_checkpoint": "outputs/hold_delete_repeaters.enc",
+  "golden_repaired_checkpoint": "outputs/golden_repaired.enc",
+  "primary_violation": "hold",
+  "injection": {
+    "type": "delete_short_path_repeaters",
+    "deleted_repeaters": [
+      {"instance": "FE_PHC917_00140", "master": "CLKBUF_X1", "original_location": [47.31, 19.88]},
+      {"instance": "FE_PHC1249_00140", "master": "BUF_X1", "original_location": [50.16, 25.48]}
+    ],
+    "target_net": "_00140_",
+    "target_sink": "FE_PHC963_00140/A"
+  },
+  "golden_repair": {
+    "action": "insert_buffer",
+    "instance": "HOLD_FIX_CLKBUF_00140",
+    "master": "CLKBUF_X1",
+    "location": [47.31, 19.88],
+    "target_sink": "FE_PHC963_00140/A",
+    "new_net": "HOLD_FIX_CLKBUF_00140_NET"
+  },
+  "metrics": {
+    "prepared": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.026, "hold_tns_ns": 0.0, "drv_violations": 0, "placement": 0, "connectivity": 0, "drc": 0},
+    "injected": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": -0.019, "hold_tns_ns": -0.019, "drv_violations": 0, "placement": 0, "connectivity": 0, "drc": 0, "cells": 11771, "area_um2": 15055.3, "power_mw": 19.23677394, "congestion_overflow": 1},
+    "repaired": {"setup_wns_ns": 0.390, "setup_tns_ns": 0.0, "hold_wns_ns": 0.006, "hold_tns_ns": 0.0, "drv_violations": 0, "placement": 0, "connectivity": 0, "drc": 0, "cells": 11772, "area_um2": 15056.1, "power_mw": 19.23709189, "congestion_overflow": 1}
+  },
+  "applicable_capabilities": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "atomic_tasks": {"manifest": "atomic_tasks/manifest.json", "count": 10, "static_verifiers_passed": 8, "runtime_verifiers": [7, 9], "runtime_verifiers_passed": 2},
+  "fresh_load_verified": true,
+  "independent_reproducibility_runs": 2,
+  "status": "validated"
+}

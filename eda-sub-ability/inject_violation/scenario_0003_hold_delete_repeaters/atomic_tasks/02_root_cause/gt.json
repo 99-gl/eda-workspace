@@ -1,0 +1,1 @@
+{"root_cause":"cell_delay","contributing_factor":"repeater_deletion","primary_objects":["FE_PHC917_00140","FE_PHC1249_00140"],"evidence":"两颗短路径 repeater 被删除后数据路径最小 cell delay 减少，Hold WNS 从 +0.026 ns 变为 -0.019 ns；Setup、DRV、placement、connectivity 和 DRC 保持干净。"}

@@ -1,0 +1,46 @@
+{
+  "selection_rule": "Delete exactly one non-clock data repeater whose merged fanout is the minimum violating value 17, while requiring zero real transition and capacitance violations and nonnegative setup/hold slack.",
+  "candidates": [
+    {
+      "id": "candidate_a",
+      "instance": "FE_OFC568_09155",
+      "shape": "2+16-1",
+      "merged_net": "_09155_",
+      "merged_fanout": 17,
+      "real_fanout_violations": 1,
+      "real_capacitance_violations": 1,
+      "capacitance": {"max": 0.025, "actual": 0.035, "slack": -0.010},
+      "result": "rejected",
+      "reason": "The injection also created a real max-capacitance violation."
+    },
+    {
+      "id": "candidate_b",
+      "instance": "FE_OFC611_00305",
+      "shape": "9+9-1",
+      "merged_net": "_00305_",
+      "merged_fanout": 17,
+      "real_fanout_violations": 1,
+      "real_transition_violations": 0,
+      "real_capacitance_violations": 0,
+      "setup_wns_ns": 0.390,
+      "hold_wns_ns": 0.026,
+      "injected_fresh_load": true,
+      "repair_fresh_load": true,
+      "result": "selected",
+      "reason": "It creates one isolated real max-fanout violation and restores cleanly with the original repeater branch."
+    },
+    {
+      "id": "candidate_c",
+      "instance": "FE_OFC702_01816",
+      "shape": "5+13-1",
+      "merged_net": "_01816_",
+      "merged_fanout": 17,
+      "real_fanout_violations": 1,
+      "real_capacitance_violations": 1,
+      "capacitance": {"max": 0.025, "actual": 0.036, "slack": -0.011},
+      "result": "rejected",
+      "reason": "The injection also created a real max-capacitance violation."
+    }
+  ]
+}
+

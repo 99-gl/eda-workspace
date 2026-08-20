@@ -1,0 +1,16 @@
+deleted_instance	FE_OFC611_00305
+master	BUF_X1
+original_location	14.06,59.08
+original_orient	R0
+driver_term	_13365_/ZN
+driver_master	INV_X1
+merged_net	_00305_
+original_output_net	FE_OFN611_00305
+original_sink_count	9
+original_sinks	_19581_/D,_13985_/A,_13946_/A,_13929_/A1,_13913_/A,_13812_/A1,_13799_/A1,_13736_/A1,_13704_/A
+merged_fanout	17
+real_fanout_violations	1
+prepared_setup_wns_ns	0.390
+prepared_hold_wns_ns	0.026
+injected_setup_wns_ns	0.390
+injected_hold_wns_ns	0.026

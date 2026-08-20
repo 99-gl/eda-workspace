@@ -1,0 +1,6 @@
+repair_instance	FE_OFC611_00305
+repair_master	BUF_X1
+repair_sink_count	9
+real_fanout_violations	0
+setup_wns_ns	0.390
+hold_wns_ns	0.026

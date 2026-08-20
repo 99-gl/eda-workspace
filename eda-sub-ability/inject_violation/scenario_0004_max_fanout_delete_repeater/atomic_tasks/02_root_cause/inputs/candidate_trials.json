@@ -1,0 +1,6 @@
+{
+  "candidate_a": {"instance": "FE_OFC568_09155", "merged_fanout": 17, "real_fanout": 1, "real_capacitance": 1, "accepted": false},
+  "candidate_b": {"instance": "FE_OFC611_00305", "merged_fanout": 17, "real_fanout": 1, "real_capacitance": 0, "accepted": true},
+  "candidate_c": {"instance": "FE_OFC702_01816", "merged_fanout": 17, "real_fanout": 1, "real_capacitance": 1, "accepted": false}
+}
+

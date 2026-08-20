@@ -1,0 +1,47 @@
+*info: 20 clock nets excluded
+*info: 2 special nets excluded.
+*info: 33 no-driver nets excluded.
+*info: fanout load violations report
+# Net / InstPin                         MaxFanLoad  FanLoad         FanLoadSlk       CellPort             Remark    
+#
+CTS_3
+    CTS_ccl_a_buf_00055/Z                   16.000      37.000          -21.000          CLKBUF_X3/Z                  C 
+CTS_10
+    CTS_ccl_a_buf_00049/Z                   16.000      35.000          -19.000          CLKBUF_X3/Z                  C 
+CTS_4
+    CTS_ccl_a_buf_00057/Z                   16.000      35.000          -19.000          CLKBUF_X3/Z                  C 
+CTS_5
+    CTS_ccl_a_buf_00067/Z                   16.000      35.000          -19.000          CLKBUF_X3/Z                  C 
+CTS_11
+    CTS_ccl_a_buf_00063/Z                   16.000      35.000          -19.000          CLKBUF_X3/Z                  C 
+CTS_13
+    CTS_ccl_a_buf_00071/Z                   16.000      35.000          -19.000          CLKBUF_X3/Z                  C 
+CTS_9
+    CTS_ccl_a_buf_00047/Z                   16.000      34.000          -18.000          CLKBUF_X3/Z                  C 
+CTS_2
+    CTS_ccl_a_buf_00053/Z                   16.000      34.000          -18.000          CLKBUF_X3/Z                  C 
+CTS_18
+    CTS_ccl_a_buf_00059/Z                   16.000      34.000          -18.000          CLKBUF_X3/Z                  C 
+CTS_19
+    CTS_ccl_a_buf_00061/Z                   16.000      33.000          -17.000          CLKBUF_X3/Z                  C 
+CTS_1
+    CTS_ccl_a_buf_00051/Z                   16.000      32.000          -16.000          CLKBUF_X3/Z                  C 
+CTS_12
+    CTS_ccl_a_buf_00065/Z                   16.000      32.000          -16.000          CLKBUF_X3/Z                  C 
+CTS_15
+    CTS_ccl_a_buf_00075/Z                   16.000      32.000          -16.000          CLKBUF_X3/Z                  C 
+CTS_16
+    CTS_ccl_a_buf_00077/Z                   16.000      32.000          -16.000          CLKBUF_X2/Z                  C 
+CTS_7
+    CTS_ccl_a_buf_00079/Z                   16.000      31.000          -15.000          CLKBUF_X3/Z                  C 
+CTS_14
+    CTS_ccl_a_buf_00073/Z                   16.000      31.000          -15.000          CLKBUF_X3/Z                  C 
+CTS_6
+    CTS_ccl_a_buf_00069/Z                   16.000      25.000          -9.000           CLKBUF_X2/Z                  C 
+_00305_
+    _13365_/ZN                              16.000      17.000          -1.000           INV_X1/ZN                    R 
+
+*info: there are 18 max fanout load violations in the design.
+*info: 1 violation is real (remark R).
+*info: 17 violations may not be fixable:
+*info:     17 violations on clock net (remark C).

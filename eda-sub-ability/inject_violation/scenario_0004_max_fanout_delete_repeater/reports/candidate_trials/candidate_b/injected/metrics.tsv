@@ -1,0 +1,7 @@
+target_instance	FE_OFC611_00305
+target_master	BUF_X1
+merged_net	_00305_
+merged_fanout	17
+real_fanout_violations	1
+setup_wns_ns	0.390
+hold_wns_ns	0.026

@@ -1,0 +1,10 @@
+{
+  "cell_delta": 1,
+  "area_delta_um2": 0.8,
+  "power_delta_mw": 0.00008828,
+  "congestion_overflow_delta": 0,
+  "setup_wns_change_ns": 0.0,
+  "hold_wns_change_ns": 0.0,
+  "real_fanout_after": 0
+}
+

@@ -1,0 +1,8 @@
+{
+  "action": "restore_deleted_repeater",
+  "instance": "FE_OFC611_00305",
+  "master": "BUF_X1",
+  "preserve_constraints": true,
+  "required_physical_steps": ["refinePlace", "ecoRoute", "extractRC"]
+}
+

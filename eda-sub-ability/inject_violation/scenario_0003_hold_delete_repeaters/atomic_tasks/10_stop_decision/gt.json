@@ -1,0 +1,1 @@
+{"decision":"stop","reason":"Setup/Hold、DRV 和物理检查均已闭合；继续插 buffer 会增加面积与功耗并构成过度 ECO。","acceptance":{"timing":true,"drv":true,"physical":true},"extra_eco_required":false}

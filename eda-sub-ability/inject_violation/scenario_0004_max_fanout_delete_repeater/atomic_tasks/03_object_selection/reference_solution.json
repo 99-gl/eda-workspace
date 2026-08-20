@@ -1,0 +1,8 @@
+{
+  "selected_instance": "FE_OFC611_00305",
+  "selected_input_net": "_00305_",
+  "selected_output_net": "FE_OFN611_00305",
+  "rejected_instances": ["FE_OFC568_09155", "FE_OFC702_01816"],
+  "selection_reason": "single_real_fanout_without_cap_or_transition"
+}
+

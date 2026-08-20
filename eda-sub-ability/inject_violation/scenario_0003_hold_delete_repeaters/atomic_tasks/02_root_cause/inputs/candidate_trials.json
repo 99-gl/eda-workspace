@@ -1,0 +1,20 @@
+{
+  "upsize_candidates": [
+    {"candidate": "one_buf", "hold_wns_ns": 0.030, "setup_wns_ns": 0.389},
+    {"candidate": "clkbuf3", "hold_wns_ns": 0.027, "setup_wns_ns": 0.389},
+    {"candidate": "clkbuf3_buf", "hold_wns_ns": 0.024, "setup_wns_ns": 0.389},
+    {"candidate": "all5", "hold_wns_ns": 0.018, "setup_wns_ns": 0.389}
+  ],
+  "delete_candidates": [
+    {"candidate": "del_917", "hold_wns_ns": 0.001, "setup_wns_ns": 0.390},
+    {"candidate": "del_1249", "hold_wns_ns": 0.005, "setup_wns_ns": 0.390},
+    {"candidate": "del_both", "hold_wns_ns": -0.019, "setup_wns_ns": 0.390}
+  ],
+  "repair_candidates": [
+    {"candidate": "one_BUF_X1", "hold_wns_ns": 0.003, "setup_wns_ns": 0.390},
+    {"candidate": "one_CLKBUF_X1", "hold_wns_ns": 0.009, "setup_wns_ns": 0.390},
+    {"candidate": "two_original_repeaters", "hold_wns_ns": 0.028, "setup_wns_ns": 0.390}
+  ],
+  "selected_injection": "del_both",
+  "selected_repair": "one_CLKBUF_X1"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_violation": "max_fanout",
+  "root_cause": "deleted_fanout_tree_repeater",
+  "merged_net": "_00305_",
+  "driver_term": "_13365_/ZN",
+  "fanout_limit": 16,
+  "actual_fanout": 17,
+  "transition_violations": 0,
+  "capacitance_violations": 0
+}
+

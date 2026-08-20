@@ -1,0 +1,8 @@
+*info: 20 clock nets excluded
+*info: 2 special nets excluded.
+*info: 33 no-driver nets excluded.
+*info: transition time violations report
+# Net / InstPin                               MaxTranTime      TranTime         TranSlack        CellPort             Remark    
+#
+
+*info: there is 0 max_tran violation in the design.

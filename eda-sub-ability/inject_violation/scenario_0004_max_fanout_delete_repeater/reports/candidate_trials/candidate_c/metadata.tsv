@@ -1,0 +1,13 @@
+instance	FE_OFC702_01816
+master	BUF_X1
+x	90.44
+y	137.48
+orient	R0
+input_net	_01816_
+output_net	FE_OFN702_01816
+upstream_loads	5
+output_loads	13
+merged_fanout	17
+driver_term	_10612_/Z
+driver_master	XOR2_X1
+sinks	_10987_/A1,_10982_/A1,_10968_/A1,_10919_/A,_10911_/A1,_10907_/A,_10861_/C2,_10860_/A1,_10847_/A1,_10839_/C2,_10838_/A1,_10830_/A,_10779_/A

@@ -1,0 +1,13 @@
+instance	FE_OFC568_09155
+master	BUF_X1
+x	51.11
+y	50.68
+orient	MY
+input_net	_09155_
+output_net	FE_OFN568_09155
+upstream_loads	2
+output_loads	16
+merged_fanout	17
+driver_term	_18456_/Z
+driver_master	XOR2_X1
+sinks	_18874_/A,_18797_/C2,_18795_/A,_18789_/A,_18782_/B1,_18763_/A,_18755_/A,_18682_/A,_18584_/A,_18577_/A,_18558_/A,_18533_/A1,_18505_/A,_18489_/A1,FE_OFC569_09155/A,FE_OFC570_09155/A
