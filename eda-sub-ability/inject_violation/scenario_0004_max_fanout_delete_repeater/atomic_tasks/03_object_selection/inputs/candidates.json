@@ -1,6 +1,30 @@
 {
-  "FE_OFC568_09155": {"shape": "2+16-1", "fanout": 17, "cap_slack": -0.010},
-  "FE_OFC611_00305": {"shape": "9+9-1", "fanout": 17, "cap_slack": 0.0, "transition_violations": 0},
-  "FE_OFC702_01816": {"shape": "5+13-1", "fanout": 17, "cap_slack": -0.011}
+  "violation": {
+    "net": "_00305_",
+    "driver_term": "_13365_/ZN",
+    "fanout_limit": 16,
+    "actual_fanout": 17
+  },
+  "repair_candidates": [
+    {
+      "object_type": "deleted_repeater",
+      "object_name": "FE_OFC611_00305",
+      "original_master": "BUF_X1",
+      "relationship": "originally_partitioned_nine_sinks_from_the_violating_net"
+    },
+    {
+      "object_type": "driver_instance",
+      "object_name": "_13365_",
+      "relationship": "still_present_and_drives_the_violating_net"
+    },
+    {
+      "object_type": "timing_constraint",
+      "object_name": "max_fanout",
+      "relationship": "must_be_preserved"
+    }
+  ],
+  "constraints": {
+    "minimize_database_changes": true,
+    "preserve_timing_constraints": true
+  }
 }
-
